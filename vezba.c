@@ -113,15 +113,35 @@ main(){
 
 
     // unesi trocefren broj i ispisi cifre
-    int x,y,z,xyz;
-    printf("unesi trocifren broj:");
-    scanf("%d",&xyz);
-    x=xyz/100;
-    y=(xyz/10)%10;
-    z=xyz%10;
-    printf("\nx=%d",x);
-    printf("\ny=%d",y);
-    printf("\nz=%d",z);
-    printf("\nzbir je:%d",x+y+z);
+    // int broj;
+    // printf("broj");
+    // scanf("%d",&broj);
+    // if (broj %2 ==0 )
+    // printf("\nvas broj je paran");
+    // else
+    // printf("\nvas broj je neparan");
+    // return 0;
+
+
+    // int broj;
+    // printf("unesite vas broj:");
+    // scanf("%d",&broj);
+    // if (broj>0)
+    // printf("vas broj je pozitivan");
+    // else if(broj<0)
+    // printf("vas broj je negativan");
+    // else
+    // printf("vas broj je nula");
+    // return 0;
+
+    int a,b;
+    printf("unesi broj a:");
+    scanf("%d",&a);
+    printf("unesi broj b:");
+    scanf("%d",&b);
+    if(a>b)
+    printf("broj a je veci od b");
+    else printf("broj b je veci od a");
     return 0;
+
 }
