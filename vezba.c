@@ -67,11 +67,47 @@ main(){
     // printf(" zapremina je:%.2f", r*r*3.14*h);
     // return 0;
 
-    float x,y;
-    printf("unesi x:");
-    scanf("%f",&x);
-    y=sqrt(x+x*x+x*x*x);
-    printf("y je jednako:%.3f", y);
-    return 0;
+    // float x,y;
+    // printf("unesi x:");
+    // scanf("%f",&x);
+    // y=sqrt(x+x*x+x*x*x);
+    // printf("y je jednako:%.3f", y);
+    // return 0;
 
+    // int a ,b ,z;
+    // printf("unesi broj a:");
+    // scanf("%d",&a);
+    // printf("unesi broj b:");
+    // scanf("%d",&b);
+    // z=sqrt(a*a+b*b);
+    // printf("z=%d+%di",a,b);
+    // return 0;
+
+
+    // dato z1 i z2 naci r1+-r2
+    // int a1,b1,a2,b2,r1,r2;
+    // printf("unesi a1:");
+    // scanf("%d",&a1);
+    // printf("unesi b1:");
+    // scanf("%d",&b1);
+    // printf("unesi a2:");
+    // scanf("%d",&a2);
+    // printf("unesi b2:");
+    // scanf("%d",&b2);
+    // r1=a1+a2;
+    // r2=b1+b2;
+    // printf("z+z1=%d+%di",r1,r2);
+    // printf("\nz-z1=%d-%di",r1,r2);
+    // return 0;
+
+
+    // rastojanje 2 tacke u trodim prostoru
+    float x1,x2,y1,y2,z1,z2,d;
+    printf("unesi koordinate prve tacke:(x1,y1,z1)");
+    scanf("%f,%f,%f",&x1,&y1,&z1);
+    printf("unesi koordinate druge tacke:(x2,y2,z2)");
+    scanf("%f,%f,%f",&x2,&y2,&z2);
+    d=sqrt(pow(x2-x1,2)+pow(y2-y1,2)+pow(z2-z1,2));
+    printf("rastojanje je:%.2f",d);
+    return 0;
 }
