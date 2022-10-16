@@ -134,14 +134,56 @@ main(){
     // printf("vas broj je nula");
     // return 0;
 
-    int a,b;
-    printf("unesi broj a:");
-    scanf("%d",&a);
-    printf("unesi broj b:");
-    scanf("%d",&b);
-    if(a>b)
-    printf("broj a je veci od b");
-    else printf("broj b je veci od a");
-    return 0;
+    // int a,b;
+    // printf("unesi broj a:");
+    // scanf("%d",&a);
+    // printf("unesi broj b:");
+    // scanf("%d",&b);
+    // if(a>b)
+    // printf("broj a je veci od b");
+    // else if(b>a) printf("broj b je veci od a");
+    // else printf("brojevi su jednaki");
+    // return 0;
 
+
+    // int a,b,c,max;
+    // printf("broj a:");
+    // scanf("%d",&a);
+    // printf("broj b:");
+    // scanf("%d",&b);
+    // printf("broj c:");
+    // scanf("%d",&c);
+    // max=a;
+    // if(b>max)
+    // max=b;
+    // if(c>max)
+    // max=c;
+    // printf("najveci broj je %d",max);
+    // return 0;
+
+
+
+    // int a;
+    // printf("unesi broj bodova:");
+    // scanf("%d",&a);
+    // if(a>90)printf("ocena 10");
+    // else if(a>80)printf("ocena 9");
+    // else if(a>70)printf("ocena 8");
+    // else if(a>60)printf("ocena 7");
+    // else if(a>50)printf("ocena 6");
+    // else printf("pali ste");
+    // return 0;
+
+
+    int a,b,r1,r2;
+    printf("a:");
+    scanf("%d",&a);
+    printf("b:");
+    scanf("%d",&b);
+    r1=a-b;
+    r2=b-a;
+    if(a>b)
+    printf("rezultat=%d",r1);
+    else printf("rezultat=%d",r2);
+    return 0;
 }
