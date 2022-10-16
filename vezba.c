@@ -102,12 +102,26 @@ main(){
 
 
     // rastojanje 2 tacke u trodim prostoru
-    float x1,x2,y1,y2,z1,z2,d;
-    printf("unesi koordinate prve tacke:(x1,y1,z1)");
-    scanf("%f,%f,%f",&x1,&y1,&z1);
-    printf("unesi koordinate druge tacke:(x2,y2,z2)");
-    scanf("%f,%f,%f",&x2,&y2,&z2);
-    d=sqrt(pow(x2-x1,2)+pow(y2-y1,2)+pow(z2-z1,2));
-    printf("rastojanje je:%.2f",d);
+    // float x1,x2,y1,y2,z1,z2,d;
+    // printf("unesi koordinate prve tacke:(x1,y1,z1)");
+    // scanf("%f,%f,%f",&x1,&y1,&z1);
+    // printf("unesi koordinate druge tacke:(x2,y2,z2)");
+    // scanf("%f,%f,%f",&x2,&y2,&z2);
+    // d=sqrt(pow(x2-x1,2)+pow(y2-y1,2)+pow(z2-z1,2));
+    // printf("rastojanje je:%.2f",d);
+    // return 0;
+
+
+    // unesi trocefren broj i ispisi cifre
+    int x,y,z,xyz;
+    printf("unesi trocifren broj:");
+    scanf("%d",&xyz);
+    x=xyz/100;
+    y=(xyz/10)%10;
+    z=xyz%10;
+    printf("\nx=%d",x);
+    printf("\ny=%d",y);
+    printf("\nz=%d",z);
+    printf("\nzbir je:%d",x+y+z);
     return 0;
 }
