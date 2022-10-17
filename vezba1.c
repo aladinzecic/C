@@ -175,15 +175,26 @@ main(){
     // return 0;
 
 
-    int a,b,r1,r2;
+    // int a,b,r1,r2;
+    // printf("a:");
+    // scanf("%d",&a);
+    // printf("b:");
+    // scanf("%d",&b);
+    // r1=a-b;
+    // r2=b-a;
+    // if(a>b)
+    // printf("rezultat=%d",r1);
+    // else printf("rezultat=%d",r2);
+    // return 0;
+
+    int a,b,c,d;
     printf("a:");
     scanf("%d",&a);
-    printf("b:");
-    scanf("%d",&b);
-    r1=a-b;
-    r2=b-a;
-    if(a>b)
-    printf("rezultat=%d",r1);
-    else printf("rezultat=%d",r2);
+    b=a/100;
+    c=(a/10)%10;
+    d=a%10;
+    printf("\n prva cifra je:%d",b);
+    printf("\n druga cifra je:%d",c);
+    printf("\n treca cifra je:%d",d);
     return 0;
 }
