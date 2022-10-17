@@ -199,15 +199,20 @@ main(){
     // return 0;
 
 
-    int a,b,x;
-    printf("unesi broj x:");
-    scanf("%d",&x);
-    printf("unesi gornju i donju granicu:");
-    scanf("%d%d",&a,&b);
-    if((a<=x*x) && (b>=x*x))
-    printf("kvadrat vaseg broja je izmedju %d i %d",a,b);
-    else printf("kvadrat vaseg broja nije izmedju %d i %d",a,b);
+    // int a,b,x;
+    // printf("unesi broj x:");
+    // scanf("%d",&x);
+    // printf("unesi gornju i donju granicu:");
+    // scanf("%d%d",&a,&b);
+    // if((a<=x*x) && (b>=x*x))
+    // printf("kvadrat vaseg broja je izmedju %d i %d",a,b);
+    // else printf("kvadrat vaseg broja nije izmedju %d i %d",a,b);
+    // return 0;
+
+    int a,b,c;
+    printf("unesi tri realna broja:");
+    scanf("%d%d%d",&a,&b,&c);
+    if((a>b) && (b>c))
+    printf("%d%d%d",a,b,c);
     return 0;
-
-
 }
