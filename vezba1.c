@@ -187,14 +187,27 @@ main(){
     // else printf("rezultat=%d",r2);
     // return 0;
 
-    int a,b,c,d;
-    printf("a:");
-    scanf("%d",&a);
-    b=a/100;
-    c=(a/10)%10;
-    d=a%10;
-    printf("\n prva cifra je:%d",b);
-    printf("\n druga cifra je:%d",c);
-    printf("\n treca cifra je:%d",d);
+    // int a,b,c,d;
+    // printf("a:");
+    // scanf("%d",&a);
+    // b=a/100;
+    // c=(a/10)%10;
+    // d=a%10;
+    // printf("\n prva cifra je:%d",b);
+    // printf("\n druga cifra je:%d",c);
+    // printf("\n treca cifra je:%d",d);
+    // return 0;
+
+
+    int a,b,x;
+    printf("unesi broj x:");
+    scanf("%d",&x);
+    printf("unesi gornju i donju granicu:");
+    scanf("%d%d",&a,&b);
+    if((a<=x*x) && (b>=x*x))
+    printf("kvadrat vaseg broja je izmedju %d i %d",a,b);
+    else printf("kvadrat vaseg broja nije izmedju %d i %d",a,b);
     return 0;
+
+
 }
