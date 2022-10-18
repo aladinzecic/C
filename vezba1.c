@@ -229,16 +229,50 @@ main(){
     // return 0;
 
 
-    int x,y;
-    printf("unesi x:");
-    scanf("%d",&x);
-    if((x>-2) && (x<=2))
-    y=2*x;
-    else if((x>=5) && (x<7))
-    y=3*x-1;
-    else
-    y=1/x;
-    printf("y=%d",y);
-    return 0;
+    // int x,y;
+    // printf("unesi x:");
+    // scanf("%d",&x);
+    // if((x>-2) && (x<=2))
+    // y=2*x;
+    // else if((x>=5) && (x<7))
+    // y=3*x-1;
+    // else
+    // y=1/x;
+    // printf("y=%d",y);
+    // return 0;
+
+
+    // int a,b,c,s,P;
+    // printf("unesite stranice trougla:");
+    // scanf("%d %d %d",&a,&b,&c);
+    // if((a+b>c) && (a+c>b) && (c+b>a))
+    // {s=(a+b+c)/2;
+    // P=sqrt(s*(s-a)*(s-b)*(s-c));
+    // printf("povrsina trougla je %d",P);
+    // }
+    // else printf("stranice ne formitaju trougao");
+    // return 0;
+
+    
+    // int a1,a2,b1,b2,x,y;
+    // printf("unesi koordinate prve prave:");
+    // scanf("%d %d",&a1,&b1);
+    // printf("unesi koordinate druge prave:");
+    // scanf("%d %d",&a2,&b2);
+    // if(a1==a2){
+    //     if(b1==b2)
+    //     printf("prave se podudaraju");
+    //     else
+    //     printf("prave su paralelne");
+    // }
+    // else{
+    //     x=(b2-b1)/(a1-a2);
+    //     y=a1*x+b1;
+    //     printf("tacka preseka je x=%d, y=%d",x,y);
+    // }
+    // return 0;
+
+    
+
 
 }
