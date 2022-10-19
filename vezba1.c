@@ -289,14 +289,52 @@ main(){
     // return 0 ;
 
 
-    int broj,n100,n10,n1;
-    printf("unesi trocifreni broj");
-    scanf("%d",&broj);
-    n100=broj/100;
-    n10=(broj/10)%10;
-    n1=broj%10;
-    printf("potrebno je %d novcanica od 100\n%d novcanca od 10 i\n%d novacanica od 1",n100,n10,n1);
+    // int broj,n100,n10,n1;
+    // printf("unesi trocifreni broj");
+    // scanf("%d",&broj);
+    // n100=broj/100;
+    // n10=(broj/10)%10;
+    // n1=broj%10;
+    // printf("potrebno je %d novcanica od 100\n%d novcanca od 10 i\n%d novacanica od 1",n100,n10,n1);
+    // return 0;
+
+
+
+    int a,b,c,D,x1,x2;
+    printf("unesi koeficijente:\na="); 
+    scanf("%d",&a);
+    printf("b=");
+    scanf("%d",&b);
+    printf("b=");
+    scanf("%d",&c);
+    if(a!=0){
+        
+        D=b*b-4*a*c;
+        if(D>0){
+        x1=(-b+sqrt(D))/(2*a);
+        x2=(-b-sqrt(D))/(2*a);
+        printf("n\Resenja:\nx1=%d, x2=%d",x1,x2);
+        }
+        else if(D==0){
+        x1=(-b/(2*a));
+        printf("\nResenje:\nx1=x2=%d",x1); 
+        }
+        else {
+            x1=-b/(2*a);
+            x2=sqrt(-D)/(2*a);
+            printf("\nKompleksna resenja:\n");
+            printf("x1=%d+i%d, x2=%d-i%di",x1,x2,x1,x2); 
+        }
+    }
+    else{
+        if(b!=0){
+            x1=-c/b;
+            printf("\nResenje:\nx=%d",x1);
+        }
+        else printf("Sistem nema resenja.");
+    }
     return 0;
 
+    
 
 }
