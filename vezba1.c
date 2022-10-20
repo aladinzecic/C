@@ -343,9 +343,26 @@ main(){
     // return 0;
 
 
+    // int i;
+    // for(i=1;i<11;i=i+1)
+    // printf("%d\n",i);
+    // return 0;
+
+
+    
+    // int i;
+    // for(i=1;i<11;i=i+1)
+    // printf("%d\n",i);
+    // return 0;
+
+    // int i;
+    // for(i=1;i<11;i=i+2)
+    // printf("%d\n",i);
+    // return 0;
+
+
     int i;
-    for(i=1;i<11;i=i+1)
+    for(i=10;i>=1;i=i-1)
     printf("%d\n",i);
     return 0;
-
 }
