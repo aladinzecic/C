@@ -367,8 +367,24 @@ main(){
     // return 0;
 
 
-    int i;
-    for(i=1;i<=5;++i)
-    printf("%d\n",i*i);
+    // int i;
+    // for(i=1;i<=5;++i)
+    // printf("%d\n",i*i);
+    // return 0;
+
+    // int i;
+    // printf("brojevi deljivi sa 3\n");
+    // for(i=1;i<=10;i++)
+    // if(i%3==0)
+    // printf("%d\n",i);
+    // return 0;
+
+
+    int i,n;
+    printf("unesi broj n:");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    printf("%d\n",i);
     return 0;
+
 }
