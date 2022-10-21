@@ -380,11 +380,27 @@ main(){
     // return 0;
 
 
-    int i,n;
-    printf("unesi broj n:");
-    scanf("%d",&n);
-    for(i=1;i<=n;i++)
-    printf("%d\n",i);
-    return 0;
+    // int i,n;
+    // printf("unesi broj n:");
+    // scanf("%d",&n);
+    // for(i=1;i<=n;i++)
+    // printf("%d\n",i);
+    // return 0;
 
+
+    // int i,s;
+    // s=0;
+    // for(i=1;i<=6;i=i+1)
+    // s=s+i;
+    // printf("sume je %d:",s);
+    // return 0;
+
+
+    int i;
+    float s;
+    for(i=1;i<=20;i=i++)
+    s=s+1/i;
+    printf("suma je %.2f",s);
+    return 0;
+    
 }
