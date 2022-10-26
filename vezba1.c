@@ -405,12 +405,43 @@ main(){
     // return 0;
 
 
-    int i,n;
-    float a,zbir,ars;
-    printf("unesi n:");
-    scanf("%d",&n);
-    printf("unesi broj%d:\n",n);
-    return 0;
+    //  int n, i;
+    // float a, s, ars;
+    // s=0;
+    // printf("n= ");
+    // scanf("%d",&n);
+    // printf(" Unesite %d brojeva:\n", n);
+    // for(i=1; i<=n; i++)
+    // {
+    // scanf("%f",&a);
+    // s+=a;
+    // }
+    // ars=s/n;
+    // printf("\n Suma zadatih brojeva je %.2f", s);
+    // printf("\n Aritmeticka sredina zadatih brojeva je %.2f", ars);
+    // return 0;
     
 
+
+
+
+    // int i,n,faktorijel=1;
+    // printf("unesi n:");
+    // scanf("%d",&n);
+    // for(i=1;i<=n;i++){
+    //     faktorijel*=i;
+    // }
+    // printf("faktorijel je %d",faktorijel);
+    // return 0;
+
+
+//     int i,n,suma=0,f=1;
+//    printf("n:");
+//    scanf("%d",&n);
+//    for(i=1;i<=n;i++){
+//        f=f*i;
+//        suma+=f;
+//    }
+//    printf("resenje je:%d",suma);
+//    return 0;
 }
