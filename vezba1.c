@@ -395,11 +395,21 @@ main(){
     // printf("sume je %d:",s);
     // return 0;
 
-    int i,n,suma=0;
-    for(i;i<=n;i++){
-        suma=suma+i
-    }
-    printf("suma je %d",suma)
+    // int i,n,suma=0;
+    // printf("unesi n:");
+    // scanf("%d",&n);
+    // for(i=1;i<=n;i++){
+    //     suma=suma+i;
+    // }
+    // printf("suma je %d",suma);
+    // return 0;
+
+
+    int i,n;
+    float a,zbir,ars;
+    printf("unesi n:");
+    scanf("%d",&n);
+    printf("unesi broj%d:\n",n);
     return 0;
     
 
