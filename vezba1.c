@@ -444,4 +444,36 @@ main(){
 //    }
 //    printf("resenje je:%d",suma);
 //    return 0;
+
+
+    // int i,m,n,s=1;
+    // printf("unesi m");
+    // scanf("%d",&m);
+    // printf("unesi n");
+    // scanf("%d",&n);
+    // for(i=0;i<=m;i++){
+    //     s=s*(n+i*m);
+    // }
+    // printf("ovo je resenje:%d",s);
+    // return 0;
+
+
+    // int i,m,n,znak=1;
+    // float s=0;
+    // printf("unesi m:");
+    // scanf("%d",&m);
+    // printf("unesi n:");
+    // scanf("%d",&n);
+    // for(i=1;i<=m;i++){
+    //     s=s+(float)znak/(n+i*m);
+    //     znak=-znak;
+    // }
+    // printf("ovo je resenje:%f",s);
+    // return 0;
+
+
+
+    
+
+
 }
