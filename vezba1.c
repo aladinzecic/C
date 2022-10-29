@@ -473,6 +473,12 @@ main(){
 
 
 
+    //4.12
+    int i,n;
+    float max;
+    printf("unesi n:");
+    scanf("%d",&n);
+    
     
 
 
