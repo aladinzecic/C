@@ -501,18 +501,77 @@ main(){
     // printf("rezultat je:%.5f",s);
     // return 0;
 
+//4.9b
+    // int i,n,f=1,znak=1;
+    // float s=0,q=0;
+    // printf("unesi n:");
+    // scanf("%d",&n);
+    // for(i=1;i<=n;i++){
+    //     q=q+i;
+    //     f=f*i;
+    //     s=s+znak*q/f;
+    //     znak=-znak;
 
-    int i,n,f=1,znak=1;
-    float s=0,q=0;
-    printf("unesi n:");
+
+    //4.9 c
+    // int i,n;
+    // float s=1,p=0,q=0;
+    // printf("unesi n:");
+    // scanf("%d",&n);
+    // for(i=1;i<=n;i++){
+    //     p=p+cos(i);
+    //     q=q+sin(i);
+    //     s=s*p/(float)q;
+    // }
+    // printf("resenje je:%.5f",s);
+    // return 0;
+
+    //4.10 a
+    // int i,x,n;
+    // float s=0,p=1;
+    // printf("unesi n");
+    // scanf("%d",&n);
+    // printf("unesi x");
+    // scanf("%d",&x);
+    // for(i=1;i<=n;i++){
+    //     p=p*sin(x);
+    //     s=s+p;
+    // }
+    // printf("resenje je:%.5f",s);
+    // return 0;
+
+    //4.10 b
+    // int i,x,n;
+    // float s=0,p=1;
+    // printf("unesi n");
+    // scanf("%d",&n);
+    // printf("unesi x");
+    // scanf("%d",&x);
+    // for(i=1;i<=n;i++){
+    //     p=p*x;
+    //     s=s+sin(p);
+    // }
+    // printf("resenje je:%.5f",s);
+    // return 0;
+    
+    //4.11
+    int i,n;
+    float br,max;
+    printf("n:");
     scanf("%d",&n);
-    for(i=1;i<=n;i++){
-        q=q+i;
-        f=f*i;
-        s=s+znak*q/f;
-        znak=-znak;
+    printf("prvi broj:");
+    scanf("%.2f",&br);
+    max=br;
+    for(i=2;i<=n;i++){
+        printf("\n%d broj:",i);
+        scanf("%f",&br);
+        if(br>max){
+            max=br;
+        }
 
-
+    }
+    printf("najveci br je %f:",max);
+    return 0;
     
     
     
