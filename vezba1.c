@@ -473,11 +473,47 @@ main(){
 
 
 
-    //4.12
-    int i,n;
-    float max;
+    //4.8 b
+    // int i,n,m,znak=1;
+    // float s=0;
+    // printf("unesi n:");
+    // scanf("%d",&n);
+    // printf("unesi m:");
+    // scanf("%d",&m);
+    // for(i=1;i<=m;i++){
+        
+    //     s=s+(float)znak/(n+i*m);
+    //     znak=-znak;
+    // }
+    // printf("rezultat je %.5f",s);
+    // return 0;
+
+    //4.9 a
+    // int i,n,f=1;
+    // float s=0,q=0;
+    // printf("unesi n:");
+    // scanf("%d",&n);
+    // for(i=1;i<=n;i++){
+    //     f=f*i;
+    //     q=q+1.0/(i+1);
+    //     s=s+f/q;
+    // }
+    // printf("rezultat je:%.5f",s);
+    // return 0;
+
+
+    int i,n,f=1,znak=1;
+    float s=0,q=0;
     printf("unesi n:");
     scanf("%d",&n);
+    for(i=1;i<=n;i++){
+        q=q+i;
+        f=f*i;
+        s=s+znak*q/f;
+        znak=-znak;
+
+
+    
     
     
 
