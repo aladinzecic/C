@@ -662,8 +662,22 @@ main(){
     // printf("%d\t",brn);
     // return 0;
 
-    
+
     
 
+//     int min,sec,hour,n,s=0;
+//     printf("n:");
+//     scanf("%d",&n);
+//     for(hour=1;hour<=23;hour++)
+//         for(min=1;min<=59;min++)
+//             for(sec=1;sec<=59;sec++){
+//                 if(n==(hour/10+hour%10+min/10+min%10+sec/10+sec%10))
+//                 printf("\n%d sat %d min %d sec",hour,min,sec);
 
-}
+
+
+//             }
+            
+
+// return 0;
+// }
