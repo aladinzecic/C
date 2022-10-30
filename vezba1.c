@@ -641,6 +641,28 @@ main(){
     // else printf("%d nije savrsen broj",n);
     
     // return 0;
+
+
+    // int i,ocena,n,brp=0,brn=0;
+    // float s=0,procena;
+    // printf("n:");
+    // scanf("%d",&n);
+    // for(i=1;i<=n;i++){
+    //     printf("unesi ocenu ucenika:");
+    //     scanf("%d",&ocena);
+    //     if(ocena>1){
+    //         brp++;
+    //         s=s+ocena;
+    //     }
+        
+    // }
+    // brn=n-brp;
+    // procena=s/brp;
+    // printf("%.2f\t",procena);
+    // printf("%d\t",brn);
+    // return 0;
+
+    
     
 
 
