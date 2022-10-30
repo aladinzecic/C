@@ -586,46 +586,19 @@ main(){
     // printf("\n Suma je %d",s);
     // return 0;
 
+    //sve do 4.16 uradjeno al izbrisano jbg
 
-    //4.13
-    // int a,b,c;
-    // for(a=1;a<=9;a++)
-    //     for(b=3;b<=9;b++)
-    //         for(c=4;c<=9;c++)
-    //             if(b==a+2 && c==b+1)
-    //             printf("%d%d%d",a,b,c);
-    //             return 0;
-
-
-    //4.14
-    // int a,b,c,broj;
-    // for(a=1;a<=9;a++)
-    //     for(b=0;b<=9;b++)
-    //         for(c=0;c<=9;c++)
-    //             {
-    //                 broj=100*c+10*b+c;
-    //                 if(broj==pow(a,3)+pow(b,3)+pow(c,3))
-    //                 printf("%d",broj);
-    //             }
-                
-    //             return 0;
-
-
-    //4.15
-    // int a,b,c,broj;
-    // for(a=1;a<=9;a++)
-    //     for(b=0;b<=9;b++)
-    //         for(c=0;c<=9;c++){
-    //             broj=100*a+10*b+c;
-    //             if(broj==(pow(a*10+b,2)-pow(c,2))){
-    //                 printf("%d",broj);
-    //                 printf("%d",broj);
-    //             }
-    //         }
-    //         return 0;
-            
-
-            
+    //4.17
+    int a,b,c,broj,dvbroj;
+    for(a=1;a<=9;a++)
+        for(b=0;b<=9;b++)
+            for(c=0;c<=9;c++){
+                broj=100*a+10*b+c;
+                dvbroj=10*a+c;
+                if(broj%dvbroj==0)
+                printf("%d\t",broj);
+                }
+                return 0;
     
     
 
