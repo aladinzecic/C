@@ -589,17 +589,58 @@ main(){
     //sve do 4.16 uradjeno al izbrisano jbg
 
     //4.17
-    int a,b,c,broj,dvbroj;
-    for(a=1;a<=9;a++)
-        for(b=0;b<=9;b++)
-            for(c=0;c<=9;c++){
-                broj=100*a+10*b+c;
-                dvbroj=10*a+c;
-                if(broj%dvbroj==0)
-                printf("%d\t",broj);
-                }
-                return 0;
+    // int a,b,c,broj,dvbroj;
+    // for(a=1;a<=9;a++)
+    //     for(b=0;b<=9;b++)
+    //         for(c=0;c<=9;c++){
+    //             broj=100*a+10*b+c;
+    //             dvbroj=10*a+c;
+    //             if(broj%dvbroj==0)
+    //             printf("%d\t",broj);
+    //             }
+    //             return 0;
+
+    //4.18
+    // int a,b,c,broj,suma=0,br=0;
+    // for(a=1;a<=9;a++)
+    //     for(b=0;b<=9;b++)
+    //         for(c=0;c<=9;c++){
+    //         broj=100*a+10*b+c;
+            
+    //             if(a+b+c==5){
+    //                 suma=suma+broj;
+    //                 br++;
+    //             }}
+                
+    //     printf("suma je:%d",suma);
+    //     printf("broj brojeva:%d",br);
+    //     return 0;
     
+    
+
+    // int i,n;
+    // printf("unesi n:");
+    // scanf("%d",&n);
+    // for(i=1;i<=n;i++){
+    //     if(n%i==0){
+    //         printf("%d",i);
+    //     }
+    // }
+    // return 0;
+
+
+    // int i,n,suma=0;
+    // printf("unesi n:");
+    // scanf("%d",&n);
+    // for(i=1;i<n;i++){
+    //     if(n%i==0){
+    //         suma=suma+i;
+    //     }
+    // }
+    // if(suma==n)printf("%d je savrsen broj",n);
+    // else printf("%d nije savrsen broj",n);
+    
+    // return 0;
     
 
 
