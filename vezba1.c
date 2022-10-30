@@ -555,24 +555,36 @@ main(){
     // return 0;
     
     //4.11
-    int i,n;
-    float br,max;
-    printf("n:");
-    scanf("%d",&n);
-    printf("prvi broj:");
-    scanf("%.2f",&br);
-    max=br;
-    for(i=2;i<=n;i++){
-        printf("\n%d broj:",i);
-        scanf("%f",&br);
-        if(br>max){
-            max=br;
-        }
+    // int i,n;
+    // float br,max;
+    // printf("n:");
+    // scanf("%d",&n);
+    // printf("1. broj:");
+    // scanf("%f",&br);
+    // max=br;
+    // for(i=2;i<=n;i++){
+    //     printf("\n%d broj:",i);
+    //     scanf("%f",&br);
+    //     if(br>max){
+    //         max=br;
+    //     }
 
+    // }
+    // printf("najveci br je %.2f:",max);
+    // return 0;
+
+
+    //4.12
+    int i,s=0,zbir;
+    for(i=1;i<=100;i++){
+        if(i%6==0){
+            printf("\t%d",i);
+            s=s+i;
+            
+        }
     }
-    printf("najveci br je %f:",max);
+    printf("\n Suma je %d",s);
     return 0;
-    
     
     
 
