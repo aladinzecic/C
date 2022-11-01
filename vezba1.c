@@ -209,6 +209,17 @@ main(){
     // else printf("kvadrat vaseg broja nije izmedju %d i %d",a,b);
     // return 0;
 
+
+    int a,b,x;
+    printf("unesi broj x:");
+    scanf("%d",&x);
+    printf("unesi gornju i donju granicu:");
+    scanf("%d%d",&a,&b);
+    if((a<=x*x<=b))
+    printf("kvadrat vaseg broja je izmedju %d i %d",a,b);
+    else printf("kvadrat vaseg broja nije izmedju %d i %d",a,b);
+    return 0;
+
     // int a,b,c;
     // printf("unesi tri realna broja:");
     // scanf("%d%d%d",&a,&b,&c);
@@ -677,7 +688,27 @@ main(){
 
 
 //             }
+
             
 
 // return 0;
-// }
+
+//4.23
+float x,y,xmin,xmax,dx;
+printf("unesi xmin");
+scanf("%f",&xmin);
+printf("unesi xmax");
+scanf("%f",&xmax);
+printf("unesi dx");
+scanf("%f",&dx);
+printf("\n x y\n ===================\n"); 
+for(x=xmin;x<=xmax;x=x+dx){
+    y=(2*x+1)/(x*x-1);
+    printf("%0.3f %0.3f\n", x, y);
+}
+return 0;
+
+
+
+
+}
