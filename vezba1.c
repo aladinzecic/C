@@ -758,6 +758,31 @@ main(){
 // printf("%d",suma);
 // return 0;
 
+//5.4
+// int i=1,n;
+// int suma=0;
+// printf("unesi n:");
+// scanf("%d",&n);
+// while(i<=n){
+//     suma=suma+i;
+//     i+=3;
+// }
+// printf("%d",suma);
+// return 0;
+
+
+//5.5
+// int i=1,n;
+// float suma=0;
+// printf("unesi n:");
+// scanf("%d",&n);
+// while(i<=n){
+//     suma=suma+1.0/pow(2*i+1,2);
+//     i++;
+// }
+// printf("%.3f",suma);
+// return 0;
+
 
 
 
