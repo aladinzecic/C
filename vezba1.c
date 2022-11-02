@@ -694,19 +694,70 @@ main(){
 // return 0;
 
 //4.23
-float x,y,xmin,xmax,dx;
-printf("unesi xmin");
-scanf("%f",&xmin);
-printf("unesi xmax");
-scanf("%f",&xmax);
-printf("unesi dx");
-scanf("%f",&dx);
-printf("\n x y\n ===================\n"); 
-for(x=xmin;x<=xmax;x=x+dx){
-    y=(2*x+1)/(x*x-1);
-    printf("%0.3f %0.3f\n", x, y);
-}
-return 0;
+// float x,y,xmin,xmax,dx;
+// printf("unesi xmin");
+// scanf("%f",&xmin);
+// printf("unesi xmax");
+// scanf("%f",&xmax);
+// printf("unesi dx");
+// scanf("%f",&dx);
+// printf("\n x y\n ===================\n"); 
+// for(x=xmin;x<=xmax;x=x+dx){
+//     y=(2*x+1)/(x*x-1);
+//     printf("%0.3f %0.3f\n", x, y);
+// }
+// return 0;
+
+
+//5.1
+//     int i;
+// i=1;
+// while(i<=5){
+//     printf("%d",i);
+//     i++;
+// }
+// return 0;
+
+//5.2
+// int i=1;
+// while(i<=10){
+//     printf("%d",i);
+//     i++;
+// }
+// return 0;
+
+
+// int i=1;
+// while(i<=10){
+    
+//     printf("%d",i);
+//     i+=2;
+// }
+// return 0;
+
+
+// int i=10;
+// while(i>=1){
+//     printf("%d",i);
+//     i--;
+
+// }
+// return 0;
+
+
+//5.3
+
+// int i=1,n;
+// int suma=0;
+// printf("unesi n:");
+// scanf("%d",&n);
+// while(i<=n){
+//     suma=suma+i;
+//     i++;
+// }
+// printf("%d",suma);
+// return 0;
+
 
 
 
