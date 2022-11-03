@@ -818,19 +818,65 @@ main(){
 // return 0;
 
 //5.7 b)
-int i=3,n,fpp=1,fp=1,fn,suma =2;
-printf("unesi n:");
-scanf("%d",&n);
-while(i<=n){
-    fn=fp+fpp;
-    fpp=fp;
-    fp=fn;
-    suma =suma+fn;
-    i++;
-}
-printf("suma je %d",suma);
+// int i=3,n,fpp=1,fp=1,fn,suma =2;
+// printf("unesi n:");
+// scanf("%d",&n);
+// while(i<=n){
+//     fn=fp+fpp;
+//     fpp=fp;
+//     fp=fn;
+//     suma =suma+fn;
+//     i++;
+// }
+// printf("suma je %d",suma);
 
-return 0;
+// return 0;
+
+//5.8
+// int a,i=1,n,rezultat=1;
+// printf("unesi a:");
+// scanf("%d",&a);
+// printf("unesi n:");
+// scanf("%d",&n);
+// while(i<=n){
+//     rezultat*=a;
+//     i++;
+// }
+// printf("resenje je:%d",rezultat);
+// return 0;
+
+//5.9
+// int brojac=0,suma=0;
+// const float stop=0; 
+// int realanbr=-1;
+// float as;
+// while(realanbr !=stop){
+//     printf("unesi realan broj:");
+//     scanf("%d",&realanbr);
+//     suma=suma+realanbr;
+//     brojac++;
+// }
+// as=suma/(brojac-1);
+// printf("resenje je%f",as);
+// return 0;
+
+//5.10
+// int brojac=0,suma=0;
+// const float stop=0; 
+// int realanbr=-1;
+// float as;
+// while(realanbr !=stop){
+//     printf("unesi realan broj:");
+//     scanf("%d",&realanbr);
+//     if(realanbr>=2 &&realanbr<=6){
+//         suma+=realanbr;
+//         brojac++;
+//     }
+// }
+// as=suma/(brojac);
+// printf("resenje je%f",as);
+// return 0;
+
 
 
 
