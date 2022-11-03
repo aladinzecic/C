@@ -877,6 +877,30 @@ main(){
 // printf("resenje je%f",as);
 // return 0;
 
+//5.11
+int i=1,n,m,f=1,gore=1,levo=1,desno=1;
+float rezultat;
+printf("unesi m:");
+scanf("%d",&m);
+printf("unesi n:");
+scanf("%d",&n);
+for(i=1;i<=m;i++){
+    gore*=i;
+}
+for(i=1;i<=n;i++){
+    levo*=i;
+
+}
+for(i=1;i<=(m-n);i++){
+    desno*=i;
+
+}
+rezultat=gore*1.0/(levo*desno);
+printf("koeficijent je %.2f",rezultat);
+return 0;
+
+
+
 
 
 
