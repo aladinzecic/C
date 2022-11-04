@@ -878,25 +878,98 @@ main(){
 // return 0;
 
 //5.11
-int i=1,n,m,f=1,gore=1,levo=1,desno=1;
-float rezultat;
-printf("unesi m:");
-scanf("%d",&m);
+// int i=1,n,m=0,f=1,gore=1,levo=1,desno=1;
+// float rezultat;
+// while(m<1||n<1||n>m){
+//     printf("unesi m:");
+// scanf("%d",&m);
+// printf("unesi n:");
+// scanf("%d",&n);
+// }
+// for(i=1;i<=m;i++){
+//     gore*=i;
+// }
+// for(i=1;i<=n;i++){
+//     levo*=i;
+
+// }
+// for(i=1;i<=(m-n);i++){
+//     desno*=i;
+
+// }
+// rezultat=gore*1.0/(levo*desno);
+// printf("koeficijent je %.2f",rezultat);
+// return 0;
+
+
+//5.12
+// int i,m,n,pomocna;
+//     float koren,suma=0;
+//     printf("unesi m i n");
+//     while(m<1||n<1){
+//         scanf("%d %d",&m,&n);
+//     }
+//     if(m>n){
+//         pomocna=n;
+//         n=m;
+//         m=pomocna;
+        
+//     }
+//     if(m%2==0)m++;
+//     for(i=m;i<=n;i=i+2){
+//         koren=sqrt(i);
+//         suma+=koren;
+//     }
+//     printf("suma korena je %.3f",suma);
+//     return 0;
+
+//5.13
+// int i,n,znak=1;
+// float suma=0;
+//     printf("unesi n:");
+//     scanf("%d",&n);
+//     i=1;
+//     while(i<=n){
+//         suma=suma+znak*1.0/i;
+//         znak=-znak;
+//         i++;
+//     }
+//     printf("suma je %.3f",suma);
+
+
+//5.14?????????????????????????????????????????????????????????????????????????????
+//5.17
+// int a,b;
+// printf("unesi a:");
+// scanf("%d",&a);
+// printf("unesi b:");
+// scanf("%d",&b);
+// while(a!=b){
+//     if(a>b){
+//         a=a+b;
+//     }
+//     else{
+//         b=b-a;
+//     }
+// }
+// printf("nzd je %d",a);
+// return 0;
+
+//5.18
+int n, pom,suma=0,zadnjaCifra;
 printf("unesi n:");
 scanf("%d",&n);
-for(i=1;i<=m;i++){
-    gore*=i;
+pom=n;
+while(pom>0){
+    zadnjaCifra=pom%10;
+    suma=suma+zadnjaCifra;
+    pom=pom/10;
 }
-for(i=1;i<=n;i++){
-    levo*=i;
+if(n%suma==0){
+    printf("broj je nivenov");
 
 }
-for(i=1;i<=(m-n);i++){
-    desno*=i;
-
-}
-rezultat=gore*1.0/(levo*desno);
-printf("koeficijent je %.2f",rezultat);
+else printf("nije");
 return 0;
 
 
