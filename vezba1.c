@@ -956,23 +956,44 @@ main(){
 // return 0;
 
 //5.18
-int n, pom,suma=0,zadnjaCifra;
+// int n, pom,suma=0,zadnjaCifra;
+// printf("unesi n:");
+// scanf("%d",&n);
+// pom=n;
+// while(pom>0){
+//     zadnjaCifra=pom%10;
+//     suma=suma+zadnjaCifra;
+//     pom=pom/10;
+// }
+// if(n%suma==0){
+//     printf("broj je nivenov");
+
+// }
+// else printf("nije");
+// return 0;
+
+//5.19
+// int n,obrnut=0;
+// printf("unesi n:");
+// scanf("%d",&n);
+// while(n>0){
+//     obrnut=obrnut*10+n%10;
+//     n=n/10;
+// }
+// printf("obrnut je %d",obrnut);
+// return 0;
+
+
+//5.19 28 =2*2*7
+int n,obrnut=0;
 printf("unesi n:");
 scanf("%d",&n);
-pom=n;
-while(pom>0){
-    zadnjaCifra=pom%10;
-    suma=suma+zadnjaCifra;
-    pom=pom/10;
+while(n>0){
+    obrnut=obrnut*10+n%10;
+    n=n/10;
 }
-if(n%suma==0){
-    printf("broj je nivenov");
-
-}
-else printf("nije");
+printf("obrnut je %d",obrnut);
 return 0;
-
-
 
 
 
