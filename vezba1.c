@@ -985,31 +985,59 @@ main(){
 
 
 //5.19 28 =2*2*7
-int n,k,m;
+// int n,k,m;
+// printf("unesi n:");
+// scanf("%d",&n);
+// m=n/2;
+// for(k=2;k<=(n/2);k++){
+//     while(n%k==0){
+//         printf("%d\n",k);
+//         n=n/k;
+//     }
+// }
+// return 0;
+
+//  int a,b,c;
+// printf(" Pitagorini brojevi:\n"); 
+// for(a=1;a<=20;a++)
+//     for(b=1;b<=20;b++)
+//         {
+            
+//             for(c=1;c*c<=(a*a+b*b);c++){
+//                 if(c*c==(a*a+b*b)){
+//                     printf(" a=%2d b=%2d c=%2d\n", a,b,c);
+//                 }
+//             }
+//         }
+// return 0;
+
+
+//6.4
+// int a,stepen=1;
+// printf("unesi granicu a:");
+// scanf("%d",&a);
+// do{
+//     printf("%d\n",stepen);
+//     stepen=stepen*2;
+// }
+// while(stepen<=a);
+// return 0;
+
+
+//DA LI JE UNETI cetvorocifreni BROJ PALINDROM NPR 1441
+ int n,p,d,t,c;
 printf("unesi n:");
 scanf("%d",&n);
-m=n/2;
-for(k=2;k<=(n/2);k++){
-    while(n%k==0){
-        printf("%d\n",k);
-        n=n/k;
-    }
+c=n%10;
+t=(n/10)%10;
+d=(n/100)%10;
+p=n/1000;
+if(p==c && d==t){
+    printf("broj je palidnrom");
 }
+else printf("broj nije palidnrom");
 return 0;
 
- int a,b,c;
-printf(" Pitagorini brojevi:\n"); 
-for(a=1;a<=20;a++)
-    for(b=1;b<=20;b++)
-        {
-            
-            for(c=1;c*c<=(a*a+b*b);c++){
-                if(c*c==(a*a+b*b)){
-                    printf(" a=%2d b=%2d c=%2d\n", a,b,c);
-                }
-            }
-        }
-return 0;
 
 
 
