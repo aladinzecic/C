@@ -985,16 +985,31 @@ main(){
 
 
 //5.19 28 =2*2*7
-int n,obrnut=0;
+int n,k,m;
 printf("unesi n:");
 scanf("%d",&n);
-while(n>0){
-    obrnut=obrnut*10+n%10;
-    n=n/10;
+m=n/2;
+for(k=2;k<=(n/2);k++){
+    while(n%k==0){
+        printf("%d\n",k);
+        n=n/k;
+    }
 }
-printf("obrnut je %d",obrnut);
 return 0;
 
+ int a,b,c;
+printf(" Pitagorini brojevi:\n"); 
+for(a=1;a<=20;a++)
+    for(b=1;b<=20;b++)
+        {
+            
+            for(c=1;c*c<=(a*a+b*b);c++){
+                if(c*c==(a*a+b*b)){
+                    printf(" a=%2d b=%2d c=%2d\n", a,b,c);
+                }
+            }
+        }
+return 0;
 
 
 
