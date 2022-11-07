@@ -1025,18 +1025,95 @@ main(){
 
 
 //DA LI JE UNETI cetvorocifreni BROJ PALINDROM NPR 1441
- int n,p,d,t,c;
-printf("unesi n:");
+//  int n,p,d,t,c;
+// printf("unesi n:");
+// scanf("%d",&n);
+// c=n%10;
+// t=(n/10)%10;
+// d=(n/100)%10;
+// p=n/1000;
+// if(p==c && d==t){
+//     printf("broj je palidnrom");
+// }
+// else printf("broj nije palidnrom");
+// return 0;
+
+//da li je bilo koji broj palindrom
+
+// int n, obrnuti=0;
+//  printf(" n= ");
+//  scanf("%d", &n);
+//  while(n > 0)
+//  {
+//  obrnuti = obrnuti*10 + n%10;
+//  n /= 10;
+//  }
+//  printf("\n Obruti: %d\n", obrnuti);
+//  if(n==obrnuti){
+//      printf("jeste");
+//  }
+//  else printf("nije");
+//  return 0; 
+
+//prestupna godina
+// int godina;
+// printf("unesi godinu");
+// scanf("%d",&godina);
+// if(godina%400==0 ||godina%4==0 && godina%100!=0){
+//     printf("%d godina je prestupna",godina);
+// } else printf("nije");
+
+
+// return 0;
+
+
+//zamena najvece i najmanje cifre u cetvorocifrenom broju
+int n,p,d,t,c,max,min,stepenmin=1,stepenmax=1,rezultat;
+printf("unesi cetvorocifren broj");
 scanf("%d",&n);
 c=n%10;
 t=(n/10)%10;
 d=(n/100)%10;
 p=n/1000;
-if(p==c && d==t){
-    printf("broj je palidnrom");
+max=c;
+min=c;
+if(t>max){
+    max=t;
+    stepenmax=10;
 }
-else printf("broj nije palidnrom");
+if(d>max){
+    max=d;
+    stepenmax=100;
+}
+if(p>max){
+    max=p;
+    stepenmax=1000;
+}
+
+if(t<min){
+    min=t;
+    stepenmin=10;
+}
+if(d<min){
+    min=d;
+        stepenmin=100;
+
+}
+if(p<min){
+    min=p;
+        stepenmin=1000;
+
+}
+
+/* Ideja: 4179, mesta menjamo tako sto oduzmemo 9 i dodamo 1,
+ odnosno oduzemo 100 i dodamo 900 */
+rezultat=n-max*stepenmax+min*stepenmax-min*stepenmin+max*stepenmin;
+printf("%d",rezultat);
 return 0;
+
+
+
+
 
 
 
