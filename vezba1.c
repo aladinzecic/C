@@ -1038,7 +1038,7 @@ main(){
 // else printf("broj nije palidnrom");
 // return 0;
 
-//da li je bilo koji broj palindrom
+// da li je bilo koji broj palindrom
 
 // int n, obrnuti=0;
 //  printf(" n= ");
@@ -1055,7 +1055,7 @@ main(){
 //  else printf("nije");
 //  return 0; 
 
-//prestupna godina
+// prestupna godina
 // int godina;
 // printf("unesi godinu");
 // scanf("%d",&godina);
@@ -1067,49 +1067,68 @@ main(){
 // return 0;
 
 
-//zamena najvece i najmanje cifre u cetvorocifrenom broju
-int n,p,d,t,c,max,min,stepenmin=1,stepenmax=1,rezultat;
+// zamena najvece i najmanje cifre u cetvorocifrenom broju
+// int n,p,d,t,c,max,min,stepenmin=1,stepenmax=1,rezultat;
+// printf("unesi cetvorocifren broj");
+// scanf("%d",&n);
+// c=n%10;
+// t=(n/10)%10;
+// d=(n/100)%10;
+// p=n/1000;
+// max=c;
+// min=c;
+// if(t>max){
+//     max=t;
+//     stepenmax=10;
+// }
+// if(d>max){
+//     max=d;
+//     stepenmax=100;
+// }
+// if(p>max){
+//     max=p;
+//     stepenmax=1000;
+// }
+
+// if(t<min){
+//     min=t;
+//     stepenmin=10;
+// }
+// if(d<min){
+//     min=d;
+//         stepenmin=100;
+
+// }
+// if(p<min){
+//     min=p;
+//         stepenmin=1000;
+
+// }
+
+// /* Ideja: 4179, mesta menjamo tako sto oduzmemo 9 i dodamo 1,
+//  odnosno oduzemo 100 i dodamo 900 */
+// rezultat=n-max*stepenmax+min*stepenmax-min*stepenmin+max*stepenmin;
+// printf("%d",rezultat);
+// return 0;
+
+//http://www.prog1-i-smer.matf.bg.ac.rs/zbirka_sa_resenjima.pdf
+//da li su cifre cetvorocifenog broja poredjane po redosledu ili ne
+int n,p,d,t,c;
 printf("unesi cetvorocifren broj");
 scanf("%d",&n);
 c=n%10;
 t=(n/10)%10;
 d=(n/100)%10;
 p=n/1000;
-max=c;
-min=c;
-if(t>max){
-    max=t;
-    stepenmax=10;
-}
-if(d>max){
-    max=d;
-    stepenmax=100;
-}
-if(p>max){
-    max=p;
-    stepenmax=1000;
-}
 
-if(t<min){
-    min=t;
-    stepenmin=10;
+if(c>t &&t>d&&d>p){
+    printf("cifre rastu");
 }
-if(d<min){
-    min=d;
-        stepenmin=100;
-
-}
-if(p<min){
-    min=p;
-        stepenmin=1000;
-
-}
-
-/* Ideja: 4179, mesta menjamo tako sto oduzmemo 9 i dodamo 1,
- odnosno oduzemo 100 i dodamo 900 */
-rezultat=n-max*stepenmax+min*stepenmax-min*stepenmin+max*stepenmin;
-printf("%d",rezultat);
+else if(c<t &&t<d&&d<p) printf("cifre opadaju");
+else printf("cifre nemaju lep raspored");
 return 0;
+
+
 
 
 
