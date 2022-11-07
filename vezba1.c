@@ -1040,16 +1040,17 @@ main(){
 
 // da li je bilo koji broj palindrom
 
-// int n, obrnuti=0;
+// int n, obrnuti=0,pom;
 //  printf(" n= ");
 //  scanf("%d", &n);
+// pom=n;
 //  while(n > 0)
 //  {
 //  obrnuti = obrnuti*10 + n%10;
 //  n /= 10;
 //  }
 //  printf("\n Obruti: %d\n", obrnuti);
-//  if(n==obrnuti){
+//  if(pom==obrnuti){
 //      printf("jeste");
 //  }
 //  else printf("nije");
@@ -1113,20 +1114,34 @@ main(){
 
 //http://www.prog1-i-smer.matf.bg.ac.rs/zbirka_sa_resenjima.pdf
 //da li su cifre cetvorocifenog broja poredjane po redosledu ili ne
-int n,p,d,t,c;
-printf("unesi cetvorocifren broj");
-scanf("%d",&n);
-c=n%10;
-t=(n/10)%10;
-d=(n/100)%10;
-p=n/1000;
+// int n,p,d,t,c;
+// printf("unesi cetvorocifren broj");
+// scanf("%d",&n);
+// c=n%10;
+// t=(n/10)%10;
+// d=(n/100)%10;
+// p=n/1000;
 
-if(c>t &&t>d&&d>p){
-    printf("cifre rastu");
-}
-else if(c<t &&t<d&&d<p) printf("cifre opadaju");
-else printf("cifre nemaju lep raspored");
-return 0;
+// if(c>t &&t>d&&d>p){
+//     printf("cifre rastu");
+// }
+// else if(c<t &&t<d&&d<p) printf("cifre opadaju");
+// else printf("cifre nemaju lep raspored");
+// return 0;
+
+
+//ako broj ima nule na kraju izbrisi ih
+// int n;
+// printf("unesi  broj");
+// scanf("%d",&n);
+// while(n%10==0){
+//     n=n/10;
+// }
+// printf("%d",n);
+// return 0;
+
+//umesi broj i sve njegove parne cifre uvecaj za 1
+
 
 
 
