@@ -1141,7 +1141,46 @@ main(){
 // return 0;
 
 //umesi broj i sve njegove parne cifre uvecaj za 1
+//     int x,y=0,vr=1,cifra;
+// printf("unesi broj:");
+// scanf("%d",&x);
+// while(x>0){
+//     cifra=x%10;
+//     if(cifra%2==0){
+//         cifra++;
+        
+//     }
+//     y=y+cifra*vr;
+//     x=x/10;
+//     vr=vr*10;
+    
+    
+// }
+// printf("%d",y);
+// return 0;
 
+
+//brisanje svakde druge cifre sa desna
+// int x,y=0,vr=1,cifra,rbr=0;
+// printf("unesi broj:");
+// scanf("%d",&x);
+// while(x>0){
+//     cifra=x%10;
+//     if(rbr%2==0){
+//         y=y+vr*cifra;
+//         vr=vr*10;
+//     }
+    
+//     rbr++;
+//     x=x/10;
+    
+    
+    
+// }
+// printf("%d",y);
+// return 0;
+
+// }
 
 
 
