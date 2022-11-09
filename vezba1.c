@@ -1210,29 +1210,71 @@ main(){
 //  /* U novi broj se smesta desna cifra. */
 // novo_n += cifra_desno * stepen;
 
-// /* Azurira se vrednost stepena. */
-//  stepen = stepen * 10;
-//  /* Provera da li je srednja cifra jednaka zbiru leve i desne
-// cifre. */
-//  if (cifra_levo + cifra_desno == cifra_sredina) {
-//      /* Treba izbaciti srednju cifru , pa broj n se azurira tako
-// sto se podeli sa 100. */
-//  n = n / 100;} else {
+// // /* Azurira se vrednost stepena. */
+// //  stepen = stepen * 10;
+// //  /* Provera da li je srednja cifra jednaka zbiru leve i desne
+// // cifre. */
+// //  if (cifra_levo + cifra_desno == cifra_sredina) {
+// //      /* Treba izbaciti srednju cifru , pa broj n se azurira tako
+// // sto se podeli sa 100. */
+// //  n = n / 100;} else {
 
-// /* Inace , zadrzava se srednja cifra i odbacuje se samo
-// 49 poslednja. */
-// n = n / 10;
+// // /* Inace , zadrzava se srednja cifra i odbacuje se samo
+// // 49 poslednja. */
+// // n = n / 10;
+// //  }
+// // }
+
+// // /* Na novi broj se dodaje preostali dvocifreni ili jednocifreni
+// // 55 broj. */
+// // novo_n = n * stepen + novo_n;
+
+// // /* Ispisivanje rezultata. */
+// //  printf("%d\n", novo_n);
+
+// // return 0;
+
+// //ispisuje se broj sa najvecom vodecom cifrom
+// int n;
+// 8 int x, x_kopija;
+// int broj;
+// 10 int vodeca_cifra , max_vodeca_cifra;
+// int i;
+// 12
+// /* Citamo vrednost sa ulaza */
+// 14 printf("Unesite broj n: ");
+// scanf("%d", &n);
+// 16
+// /* Postavljamo maksimalnu vodecu cifru na 0 - cifre broja su vece
+// 18 ili jednake od 0 pa je ova vrednost neutralna */
+// max_vodeca_cifra = 0;
+
+// /* Ucitavamo broj po broj */
+//  printf("Unesite n brojeva: ");
+// for (i = 0; i < n; i++) {
+//  scanf("%d", &x);
+//  /* Odredjujemo vodecu cifru broja */
+// x_kopija = abs(x);
+//  while (x_kopija > 10) {
+// x_kopija = x_kopija / 10;
 //  }
+// vodeca_cifra = x_kopija;
+
+// /* Ako je izdvojena cifra veca od maksimalne vodece cifre */
+//  if (vodeca_cifra > max_vodeca_cifra) {
+// /* Cuvamo je */
+//  max_vodeca_cifra = vodeca_cifra;
+// /* I zbog ispisa , cuvamo i broj u kojem se ona pojavljuje */
+//  /* Zbog ovoga smo morali i da racunamo vodecu cifru nad
+// kopijom broja x kako ne bismo promenili njegovu vrednost */
+//  broj = x;
 // }
-
-// /* Na novi broj se dodaje preostali dvocifreni ili jednocifreni
-// 55 broj. */
-// novo_n = n * stepen + novo_n;
-
-// /* Ispisivanje rezultata. */
-//  printf("%d\n", novo_n);
+//  }
+//  /* Ispisujemo rezultat */
+// printf("%d\n", broj);
 
 // return 0;
+
 
 
 
