@@ -1302,17 +1302,68 @@ main(){
 
 
 //unesen n para i vidis koliko je to novcanica od 5000,1000,100,50,10,1
-int n,n5000,n1000,n100,n50,n10,n1,rez;
-printf("unesi n:");
-scanf("%d",&n);
-n5000=n/5000;n=n%5000;
-n1000=n/1000;n=n%1000;
-n100=n/100;n=n%100;
-n50=n/50;n=n%50;
-n10=n/10;n=n%10;
-n1=n/1;
-printf("%d   %d   %d  %d   %d   %d",n5000,n1000,n100,n50,n10,n1);
-return 0;
+// int n,n5000,n1000,n100,n50,n10,n1,rez;
+// printf("unesi n:");
+// scanf("%d",&n);
+// n5000=n/5000;n=n%5000;
+// n1000=n/1000;n=n%1000;
+// n100=n/100;n=n%100;
+// n50=n/50;n=n%50;
+// n10=n/10;n=n%10;
+// n1=n/1;
+// printf("%d   %d   %d  %d   %d   %d",n5000,n1000,n100,n50,n10,n1);
+// return 0;
+
+
+//3!+6!+9!..+n!
+//     int n,i,suma=0,f=1;
+//     printf("unei n:");
+//     scanf("%d",&n);
+    
+//         for(i=1;i<=n;i++){
+//             f=f*i;
+//             if(i%3==0)
+//             suma=suma+f;
+//         }
+    
+//    printf("suma je %d",suma);
+// return 0; 
+
+
+//S=1+1/(1/2) +.1/(1/2 + 1/3) +...+ 1/(1/2+1/3+...+1/n)
+    // int n,i;
+//     float suma=0,suma1=1;
+//     double f=1;
+//     printf("unei n:");
+//     scanf("%d",&n);
+    
+//         for(i=2;i<=n;i++){
+//             suma=suma+1.0/i;
+//             suma1=suma1+1.0/suma;
+//         }
+    
+//    printf("suma je %f",suma1);
+// return 0;
+
+
+//najveci broj od n ucitanih
+// int a,n,max,i;
+// printf("n:");
+// scanf("%d",&n);
+// printf("Otkucaj: 1. broj");
+// scanf("%d",&a);
+// max=a;
+// for(i=2;i<=n;i++){
+//     printf("Otkucaj: %d. broj",i);
+            
+//             scanf("%d",&a); 
+//     if(a>max)max=a;
+// }
+// printf("%d",max);
+// return 0; 
+
+
+
 
 
 
