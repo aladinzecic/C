@@ -1236,17 +1236,17 @@ main(){
 
 // //ispisuje se broj sa najvecom vodecom cifrom
 // int n;
-// 8 int x, x_kopija;
+//  int x, x_kopija;
 // int broj;
-// 10 int vodeca_cifra , max_vodeca_cifra;
+//  int vodeca_cifra , max_vodeca_cifra;
 // int i;
-// 12
+// 
 // /* Citamo vrednost sa ulaza */
-// 14 printf("Unesite broj n: ");
+//  printf("Unesite broj n: ");
 // scanf("%d", &n);
-// 16
+// 
 // /* Postavljamo maksimalnu vodecu cifru na 0 - cifre broja su vece
-// 18 ili jednake od 0 pa je ova vrednost neutralna */
+//  ili jednake od 0 pa je ova vrednost neutralna */
 // max_vodeca_cifra = 0;
 
 // /* Ucitavamo broj po broj */
@@ -1273,8 +1273,46 @@ main(){
 //  /* Ispisujemo rezultat */
 // printf("%d\n", broj);
 
+//dat je trocifren broj ispisi ga da bude najveci moguci
+//npr 348 ->843 
+// int n,x,y,z,p;
+// printf("unesi n:");
+// scanf("%d",&n);
+// z=n%10;
+// y=(n/10)%10;
+// x=(n/100)%10;
+// printf("%d",a);
+// if(y>x){
+//     p=x;
+//     x=y;
+//     y=p;
+// }
+// if(z>x){
+//     p=x;
+//     x=z;
+//     z=p;
+// }
+// if(z>y){
+//     p=y;
+//     y=z;
+//     z=p;
+// }
+// printf("%d%d%d",x,y,z);
 // return 0;
 
+
+//unesen n para i vidis koliko je to novcanica od 5000,1000,100,50,10,1
+int n,n5000,n1000,n100,n50,n10,n1,rez;
+printf("unesi n:");
+scanf("%d",&n);
+n5000=n/5000;n=n%5000;
+n1000=n/1000;n=n%1000;
+n100=n/100;n=n%100;
+n50=n/50;n=n%50;
+n10=n/10;n=n%10;
+n1=n/1;
+printf("%d   %d   %d  %d   %d   %d",n5000,n1000,n100,n50,n10,n1);
+return 0;
 
 
 
