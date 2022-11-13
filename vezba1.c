@@ -1413,6 +1413,73 @@ main(){
 // return 0;
 
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// #define STOP 0
+// int x,brojac=-1,gore=0;
+// float as=0;
+// printf("unesi broj");
+// while(x!=STOP){
+//     scanf("%d",&x);
+//     brojac++;
+//     gore+=x;
+// }
+// as=(1.0*gore)/brojac;
+// printf("a sredine je %.4f",as);
+// return 0;
+
+
+// unosi se n brojeva i proverava se koliko se puta promenio znak ue
+// int broj,sledecibr,promena=0,n,i;
+// printf("unesi n:");
+// scanf("%d",&n);
+// printf("unesi broj:");
+// scanf("%d",&broj);
+// for(i=2;i<=n;i++){
+//     scanf("%d",&sledecibr);
+//     if(broj*sledecibr<0){
+//         promena++;
+//     }
+//     else if(broj*sledecibr==0 && (broj==0||sledecibr==0)){
+//         promena++;
+//     }
+//     broj=sledecibr;
+// }
+// printf("broj promena je %d",promena);
+// return 0;
+
+//U prodavnici se nalazi n artikala čije cene su realni brojevi.
+//Napisati program koji učitava n, a potom i cenu svakog od n artikala i određuje
+//i ispisuje najmanju cenu.
+
+
+// int n,i,min,x;
+// printf("unesi n:");
+// scanf("%d",&n);
+// if(n==0){
+//     printf("niste uneli nista");
+//     return 1;
+// }
+// printf("unesi cenu:");
+// scanf("%d",&x);
+// min=x;
+// for(i=2;i<=n;i++){
+//     printf("unesi cenu:");
+//     scanf("%d",&x);
+//     if(x<0){
+//         printf("cena ne moze biti negativna");
+//         return 1;
+//     }
+//     if(x<min){
+//         min=x;
+//     }
+// }
+// printf("najmanja cena je%d",min);
+// return 0;
+
+
 
 
 
