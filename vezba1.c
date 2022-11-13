@@ -1529,6 +1529,34 @@ main(){
 // }
 
 
+//Program učitava ceo pozitivan broj n, a zatim i n celih
+//brojeva. Napisati program koji ispisuje broj sa najvećom vodećom cifrom. Vodeća
+//cifra je cifra najveće težine u zapisu broja. Ukoliko ima više takvih, ispisati prvi
+// int n,i,broj,broj1,brcif=0,cifra,maxbrcif,maxbroj,brojac=0;
+// printf("unesi n:");
+// scanf("%d",&n);
+// maxbrcif=0;
+// for(i=1;i<=n;i++){
+//     printf("unesi broj:");
+// scanf("%d",&broj);
+// broj1=broj;
+// while(broj1>10){
+//     broj1/=10;
+    
+// }
+// cifra=broj1;
+// if(maxbrcif<cifra){
+//     maxbrcif=cifra;
+//     maxbroj=broj;
+// }
+// }
+// printf("%d",maxbroj);
+// return 0;
+
+
+
+
+
 
 
 
