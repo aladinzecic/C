@@ -1479,6 +1479,58 @@ main(){
 // printf("najmanja cena je%d",min);
 // return 0;
 
+//Zadatak 2.3.22 Program učitava ceo pozitivan broj n, a zatim i n celih
+//brojeva. Napisati program koji ispisuje broj sa najvećom cifrom desetica. Ukoliko
+//ima više takvih, ispisati prvi.
+
+// int n,i,broj,desetica,max,maxbroj;
+// printf("unesi n:");
+// scanf("%d",&n);
+
+// max=0;
+// for(i=1;i<=n;i++){
+//     printf("unesi broj:");
+//     scanf("%d",&broj);
+//     desetica = (broj / 10) % 10;
+
+//     if(desetica>=max){
+//         max=desetica;
+//         maxbroj=broj;
+//     }
+// }
+// printf("broj sa najvecom deseticom je %d",maxbroj);
+// return 0;
+
+
+//Zadatak 2.3.23 Program učitava ceo pozitivan broj n, a zatim i n celih
+//brojeva. Napisati program koji ispisuje broj sa najvećim brojem cifara. Ukoliko
+//ima više takvih, ispisati prvi.
+
+
+// int n,i,broj,broj1,brcif=0,maxbrcif=0,maxbroj,brojac=0;////////////////////////////////////////////////////////
+// printf("unesi n:");
+// scanf("%d",&n);
+// for(i=1;i<=n;i++){
+//     printf("unesi broj:");
+// scanf("%d",&broj);
+// broj1=broj;
+// while(broj1!=0){
+//     broj1/=10;
+//     brcif++;
+// }
+// if(brcif>maxbrcif){
+//     maxbrcif=brcif;
+//     maxbroj=broj;
+// }
+// }
+// printf("%d",maxbroj);
+// return 0;
+
+// }
+
+
+
+
 
 
 
