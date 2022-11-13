@@ -1554,6 +1554,70 @@ main(){
 // return 0;
 
 
+//Vršna su merenja nadmorskih visina na određenom delu
+//teritorije i naučnike zanima razlika između najveće i najmanje nadmorske visine.
+//Napisati program koji učitava realne brojeve sve do unosa 0 koji označavaju
+//nadmorske visine i ispisuje razliku najveće i najmanje nadmorske visine.
+// int x,min,max;
+// printf("unesi visinu:");
+// scanf("%d",&x);
+// min=x;
+// max=x;
+// while(x!=0){
+    
+    
+//     if(x>max){///////////////MORA NA KRAJU SCANF OBRATI PAZNJU
+//         max=x;
+//     }
+//     if(x<min){
+//         min=x;
+//     }
+//     printf("unesi visinu:");
+//     scanf("%d",&x);
+    
+// }
+// printf("razlika je %d",(max-min));
+// return 0;
+
+
+
+//SUMA KUBOVA DO N
+// int suma=0,i,n,f=1;
+// printf("unesi n:");
+// scanf("%d",&n);
+// for(i=1;i<=n;i++){
+//     f=i*i*i;
+//     suma=suma+f;
+// }
+// printf("%d",suma);
+// return 0;
+
+
+// int suma=0,i,n,f=1;
+// printf("unesi n:");
+// scanf("%d",&n);
+// for(i=1;i<=n;i++){
+//     f=i*i*i;
+//     suma=suma+f;
+//     printf("\t%d  %d",i,suma);
+// }
+
+// return 0;
+
+
+// x+2x^2+3x^3
+// int i,suma=0,f=1,x,n;
+// printf("unesi x:");
+// scanf("%d",&x);
+// printf("unesi n:");
+// scanf("%d",&n);
+// for(i=1;i<=n;i++){
+//     f=pow(x,i);
+//     suma=suma+i*f;
+// }
+// printf("%d",suma);
+// return 0;
+
 
 
 
