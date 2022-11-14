@@ -1618,9 +1618,35 @@ main(){
 // printf("%d",suma);
 // return 0;
 
+//1+1/x+1/x^2...
+// int i,f=1,x,n;
+// float suma=0;
+// printf("unesi x:");
+// scanf("%d",&x);
+// printf("unesi n:");
+// scanf("%d",&n);
+// for(i=1;i<=n;i++){
+//     f=pow(x,i);
+//     suma=suma+1.0/f;
+// }
+// printf("%d",suma);
+// return 0;
 
-
-
+//neki eps neka govna
+ int i=1;
+float x,eps,clan=1,suma=0;
+printf("unesi x:");
+scanf("%f",&x);
+printf("unesi eps:");
+scanf("%f",&eps);
+while(clan>eps){
+    suma=suma+clan;
+    clan=clan*x/i;
+    i++;
+    
+}
+printf("%f ",suma);
+return 0;
 
 
 
