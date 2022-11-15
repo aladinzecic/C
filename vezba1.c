@@ -1633,22 +1633,70 @@ main(){
 // return 0;
 
 //neki eps neka govna
- int i=1;
-float x,eps,clan=1,suma=0;
-printf("unesi x:");
-scanf("%f",&x);
-printf("unesi eps:");
-scanf("%f",&eps);
-while(clan>eps){
-    suma=suma+clan;
-    clan=clan*x/i;
-    i++;
+//  int i=1;
+// float x,eps,clan=1,suma=0;
+// printf("unesi x:");
+// scanf("%f",&x);
+// printf("unesi eps:");
+// scanf("%f",&eps);
+// while(clan>eps){
+//     suma=suma+clan;
+//     clan=clan*x/i;
+//     i++;
     
-}
-printf("%f ",suma);
-return 0;
+// }
+// printf("%f ",suma);
+// return 0;
 
 
+//   int i=1;
+// float x,eps,clan=1,suma=0,znak=-1.0;
+// printf("unesi x:");
+// scanf("%f",&x);
+// printf("unesi eps:");
+// scanf("%f",&eps);
+// while(fabs(clan) > eps){
+//     suma=suma+clan;
+//     clan=clan*x/i;
+//     clan*=znak;
+//     i++;
+    
+    
+// }
+// printf("%f ",suma);
+// return 0;
+
+
+// int i,n,p=1;
+//     float suma=1.0,x,clan=1;
+        
+//     printf("Unesite prirodan broj n: ");
+//     scanf("%d", &n);    
+//     for(i=2;i<=n;i++){
+//         p=p*i;
+//         clan=1+1.0/p;
+//         suma=suma*clan;
+//     }
+        
+    
+//     printf("suma je %.3f",suma);
+//     return 0;
+
+// int i,n,p=-3,znak=-1;
+//     float suma=0,x,clan=3;
+        
+//     printf("Unesite prirodan broj n: ");
+//     scanf("%d", &n);    
+//     for(i=5;i<=n;i+=2){
+//         p*=znak*i;
+        
+//         suma=suma+p;
+        
+//     }
+        
+    
+//     printf("suma je %.3f",suma);
+//     return 0;
 
 
 
