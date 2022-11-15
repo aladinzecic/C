@@ -1390,7 +1390,7 @@ main(){
 //     scanf("%d %d",&x,&y);
 //     p1=fabs(1.0*(8*(6-y)+10*(y-6)+x*(6-6))/2);
 // p2=fabs(1.0*(10*(8-y)+9*(y-6)+x*(6-8))/2);
-// p3=fabs(1.0*(8*(8-y)+9*(y-6)+x*(6-8))/2);
+// p3=fabs(1.0*(8*(8-sy)+9*(y-6)+x*(6-8))/2);
 // p=fabs(1.0*(8*(6-8)+10*(8-6)+9*(6-6))/2);
 // d=sqrt(pow(x-9,2)+pow(y-3,2));
 //     if(d<=1&& d>=0){
@@ -1698,15 +1698,53 @@ main(){
 //     printf("suma je %.3f",suma);
 //     return 0;
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// int x,y;
+// float p1,p2,p3,p;
+// printf("unesi x y:");
+// scanf("%d %d",&x,&y);
+// p=fabs(1.0*(-1*(1-3)+3*(3-1)+2*(1-1))/2);
+// p1=fabs(1.0*(-1*(1-y)+3*(y-1)+x*(1-1))/2);
+// p2=fabs(1.0*(-1*(3-y)+2*(y-1)+x*(1-3))/2);
+// p3=fabs(1.0*(3*(3-y)+2*(y-1)+x*(1-3))/2);
+// if(p1+p2+p3==p){
+//     printf("tacka se nalazi u trouglu");
+// }
+// else printf("jbg");
+// return 0;
 
 
 
+int x,x1,y,stepen=1,cifra,br=0,prva,zadnja;
+printf("unesi x:");
+scanf("%d",&x);
 
-
-
-
-
-
-
-
+br=log10(x);
+prva=x/pow(10,br);
+zadnja=x%10;
+y=x-zadnja-prva*pow(10,br)+zadnja*pow(10,br)+prva;
+if(zadnja==0){
+    zadnja=(x/10)%10;
+   y=x-zadnja-prva*pow(10,br)+zadnja*pow(10,br)+prva;
 }
+printf(" %d",br);
+return 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
