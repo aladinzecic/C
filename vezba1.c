@@ -1715,20 +1715,82 @@ main(){
 
 
 
-int x,x1,y,stepen=1,cifra,br=0,prva,zadnja;
-printf("unesi x:");
-scanf("%d",&x);
+// int x,x1,y,stepen=1,cifra,br=0,prva,zadnja;
+// printf("unesi x:");
+// scanf("%d",&x);
 
-br=log10(x);
-prva=x/pow(10,br);
-zadnja=x%10;
-y=x-zadnja-prva*pow(10,br)+zadnja*pow(10,br)+prva;
-if(zadnja==0){
-    zadnja=(x/10)%10;
-   y=x-zadnja-prva*pow(10,br)+zadnja*pow(10,br)+prva;
-}
-printf(" %d",br);
-return 0;
+// br=log10(x);
+// prva=x/pow(10,br);
+// zadnja=x%10;
+// y=x-zadnja-prva*pow(10,br)+zadnja*pow(10,br)+prva;
+// if(zadnja==0){
+//     zadnja=(x/10)%10;
+//    y=x-zadnja-prva*pow(10,br)+zadnja*pow(10,br)+prva;
+// }
+// printf(" %d",br);
+// return 0;
+
+
+
+// int q,m,s,h,i,sek,m1,s1,h1;
+//     printf("unesite q");
+//     scanf("%d",&q);
+//     printf("unesite vreme poletanja");
+//     scanf("%d %d %d",&h1,&m1,&s1);
+//     sek=h1*3600+m1*60+s1+q;
+//     h=sek/3600;
+//     m=(sek%3600)/60;
+//     s=(sek%3600)%60;
+//     if(h>=24) h=h-24;
+//     printf("%d %d %d ",h,m,s);
+    
+//     return 0;
+
+
+
+// int a,b,i,d;
+//     while(1){
+//     printf("unesi a:");
+//     scanf("%d",&a);
+//     printf("unesi b:");
+//     scanf("%d",&b);
+//     if(a>0&&b>0) break;
+//     }
+//     for(i=1;i<=a;i++){
+//         if(a%i==0&b%i==0){
+//             d=i;
+            
+//         }
+//     }
+    
+//     if(d==1){
+//         printf("uzajamno su prosti");
+//     }
+//     else printf("nisu");
+
+
+
+// int p,n,i=1,br,s1=0,s2=0;
+//     printf("unesi p:");
+//     scanf("%d",&p);
+//     printf("unesi n:");
+//     scanf("%d",&n);
+//     while(i<=n){
+//         printf("unesi br:");
+//         scanf("%d",&br);
+//         if(i>p){
+//             s1+=br;
+//         }
+//         if(i<p){
+//             s2+=br;
+//         }
+//         i++;
+//     }
+//     if(s1==s2) printf("uredjen");
+//     else printf("neuredjen");
+//     return 0;
+
+
 
 
 
