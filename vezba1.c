@@ -1827,7 +1827,38 @@ main(){
 
 
 
+///123 /1/2/6
+    // int n,broj,cifra,fakt=1,i,brojac=0,brojac1=0;
+    // printf("unesi broj");
+    // scanf("%d",&broj);
+    // n=broj;
+    // while(broj>0){
+    //     fakt/=fakt;
+    //     brojac++;
+    //     cifra=broj%10;
+    //     broj/=10;
 
+
+    //     printf("\ncifre su %d",cifra);
+    //     for(i=1;i<=cifra;i++){
+    //         fakt*=i;
+    //     }
+        
+    //     printf("fakt je %d",fakt);
+    //     if(n%fakt==0){
+    //         brojac1++;
+    //     }
+                        
+
+        
+        
+    // }
+    // if(brojac1==brojac) printf("moze");
+    // else printf("nemoze");
+   
+    
+    
+    // return 0;
 
 
 
