@@ -1862,6 +1862,68 @@ main(){
 
 
 
+    //postovanje za zadatak ////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // int n, m, broj, sumaCifara, predposlednjaCifra, brojeviKojiNeOdgovaraju = 0, brojeviKojiOdgovaraju = 0;
+    // printf("Unesite n i m ");
+    // scanf("%d %d", &n, &m);
+    // while(1){
+    //     int brojCifara = 1;
+    //     printf("Unesite broj");
+    //     scanf("%d", &broj);
+    //     //provera da li je broj n-tocifren
+    //     int temp = broj;
+    //     int sumaCifara = 0;
+    //     while(temp / 10 != 0){
+    //         brojCifara++;
+    //         sumaCifara += temp % 10;
+    //         temp /= 10;
+    //         if(brojCifara == 2){
+    //             predposlednjaCifra = temp % 10;
+                
+    //         }
+    //     }
+
+    //     if(brojCifara == n & sumaCifara % predposlednjaCifra == 0){
+    //         brojeviKojiOdgovaraju++;
+            
+    //     }
+    //     else{
+    //         brojeviKojiNeOdgovaraju++;
+    //     }
+    //     if(brojeviKojiOdgovaraju == m){
+    //         break;
+    //     }
+    // }
+    // printf("\n%d ", brojeviKojiNeOdgovaraju);
+    // return 0;
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// int n,broj,cifra,f=1,i,brojac=0,brojac1=0,s=0;
+//     printf("unesi broj:");
+//     scanf("%d",&broj);
+//     n=broj;
+//     while(broj>0){
+//         f/=f;
+//         brojac++;
+//         cifra=broj%10;
+//         broj/=10;
+//         printf("\ncifre su:%d",cifra);
+//         for(i=1;i<=cifra;i++){
+//             f*=i;
+//         }
+//         s=s+f;
+                
+//         if(n%f==0) brojac1++;
+
+        
+//     }
+//     printf("\tf je:%d",s);
+//     if(n%s==0) printf("jes");
+//     else printf("nije");
+    
+//     return 0;
+
 
 
 
