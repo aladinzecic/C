@@ -1792,6 +1792,42 @@ main(){
 
 
 
+// #include <stdio.h>
+// #include <math.h>
+// int main()
+// {
+//     int i,n,a,b,c,d,broj,suma,suma1=0,S;
+//     printf("unesi sumu");
+//     scanf("%d",&suma);
+//     while(1){
+//         printf("unesi broj");
+//         scanf("%d",&broj);
+        
+//         a=broj%10;
+//         b=(broj/10)%10;
+//         c=(broj/100)%10;
+//         d=(broj/1000)%10;
+//         for(i=2;i<=3;i++){
+//            if(a%i==0 ||b%i==0 ||c%i==0 ||d%i==0)
+//            broj=0;
+//         }
+        
+//         suma1=suma1+broj;
+//          if(suma1>suma) {
+//             break;
+//         }
+               
+//         }
+    
+//     printf ("suma = %d" ,suma1);
+//     return 0;
+// }
+
+
+
+
+
+
 
 
 
