@@ -1161,7 +1161,7 @@ main(){
 // return 0;
 
 
-//brisanje svakde druge cifre sa desna
+// brisanje svakde druge cifre sa desna
 // int x,y=0,vr=1,cifra,rbr=0;
 // printf("unesi broj:");
 // scanf("%d",&x);
@@ -1922,6 +1922,30 @@ main(){
 //     if(n%s==0) printf("jes");
 //     else printf("nije");
     
+//     return 0;
+
+
+// int n,brojac=0,i=1,pom,cifra,parni=0,neparni=0;
+//     printf("unesi n:");
+//     scanf("%d",&n);
+//     pom=n;
+//     while(pom>0){
+//         pom=pom/10;
+        
+//         brojac++;
+        
+//     }
+//     for(i=1;i<=brojac;i++){
+//         cifra=n%10;
+//         if(i%2==0){
+//             parni=parni+cifra;
+//         }
+//         else  neparni+=cifra;
+//         n/=10;
+//     }
+//     if(parni==neparni)
+//     printf("bravo");
+//     else printf("zaomi");
 //     return 0;
 
 
