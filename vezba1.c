@@ -1975,6 +1975,75 @@ main(){
 
 
 
+// #include <stdio.h>
+// long fakt(int par){
+//     int i=1;
+//     int f=1;
+//     for(i=1;i<=par;i++){
+//         f*=i;
+//     }
+//     return f;
+// }
+// int main()
+// {int n,k,resenje;
+
+//     printf("unesi n i k");
+//     scanf("%d %d",&n,&k);
+//     resenje=fakt(n)/(fakt(k)*fakt(n-k));
+//     printf("resenje je %d",resenje);
+//     return 0;
+// }
+
+
+//suma cifara brojeva u intervalu
+
+// #include <stdio.h>
+// int funkcija(int a,int b){
+//     int i,suma=0,cifra;
+//     for(i=a;i<=b;i++){
+//         int x=i;
+//         while(x!=0){
+//             cifra=x%10;
+//             suma+=cifra;
+//             x/=10;
+//         }
+//         printf("%d\t%d\t",i,suma);
+//         suma=0;
+        
+//     }
+// }
+
+// int main()
+// {  int a,b;
+//    printf("unesi granice:");
+//    scanf("%d %d",&a,&b);
+//    printf("%d",funkcija(a,b));
+//    return 0;
+// }
+
+// #include <stdio.h>
+// //1!+2!+3!
+// int funkcija(int par){
+//     int i,f=1;
+//     for(i=1;i<=par;i++){
+//        f*=i; 
+//     }
+//     return f;
+// }
+
+// int main()
+// {  int n,i,suma=0;
+//    printf("unesi granice:");
+//    scanf("%d",&n);
+//    for(i=1;i<=n;i++){
+//        suma=suma+funkcija(i);
+//    }
+//    printf("%d",suma);
+//    return 0;
+// }
+
+
+
 
 
 
