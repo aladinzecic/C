@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
+#define MAX 100 
 main(){
     // float broj;
     // printf("unesite realan broj:");
@@ -2041,6 +2042,74 @@ main(){
 //    printf("%d",suma);
 //    return 0;
 // }
+
+
+//nizovi
+
+// Саставити програм који ће за унети низ (дужине n) целих бројева одредити и исписати:
+// а) суму парних и суму непарних бројева;
+// б) суму елемената са парним индексима и суму елемената са непарним индексима. 
+
+// int i,n,sp,sn,niz[MAX];
+// printf("unesi n");
+// scanf("%d",&n);
+// for(i=0;i<n;i++){
+//     scanf("%d",&niz[i]);
+//     if(niz[i]%2==0){
+//         sp+=niz[i];
+//     }
+//     else sn+=niz[i];
+
+// }
+
+// int i,n,sp,sn,niz[MAX];
+// printf("unesi n");
+// scanf("%d",&n);
+// for(i=0;i<n;i++){
+//     scanf("%d",&niz[i]);
+//     if(i%2==0){
+//         sp+=niz[i];
+//     }
+//     else sn+=niz[i];
+
+// }
+
+
+// int i,n,s=0,nizA[100],nizB[100];
+// printf("unesi n");
+// scanf("%d",&n);
+// for(i=0;i<n;i++){
+//     scanf("%d",&nizA[i]);
+// }
+// for(i=0;i<n;i++){
+//     scanf("%d",&nizB[i]);
+// }
+// for(i=0;i<n;i++){
+//     s+=nizB[i]*nizA[i];
+// }
+// printf("%d",s);
+// return 0;
+
+
+
+// int i,n,m,s=0,nizA[MAX],nizB[MAX],nizC[MAX];
+// printf("unesi n");
+// scanf("%d",&n);
+// printf("unesi m");
+// scanf("%d",&m);
+// for(i=0;i<n;i++){
+//     scanf("%d",&nizA[i]);
+// }
+// for(i=0;i<m;i++){
+//     scanf("%d",&nizB[i]);
+// }
+// for(i=0;i<n+m;i++){
+//     if(i<n)nizC[i]=nizA[i];
+//     else nizC[i]=nizB[i-n];
+//     printf(" %d",nizC[i]);
+// }
+
+// return 0;
 
 
 
