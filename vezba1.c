@@ -2149,6 +2149,73 @@ main(){
 
 
 // 
+//1.5
+    // int niz[100],i=0,n;
+    // printf("unesi n:");
+    // scanf("%d",&n);
+    // for(i=0;i<n;i++){
+    //     scanf("%d",&niz[i]);
+    // }
+    // for(i=n-1;i>=0;i--){
+    //     printf("%d ",niz[i]);
+    // }
+    
+    
+    
+    
+
+    // return 0;
+
+    //10.7
+    // int niz[100],n,suma=0;
+    // float as;
+    // printf("unesi n:");
+    // scanf("%d",&n);
+    // for(int i=0;i<n;i++)
+    // {
+    //     scanf("%d",&niz[i]);
+    //     suma+=niz[i];
+    // }
+    // as=(1.0*suma)/n;
+    // printf("%f",as);
+    // return 0;
+
+    //10.8
+    // int niz[100],n,suma=0,brojac=0;
+    // float as;
+    // printf("unesi n:");
+    // scanf("%d",&n);
+    // for(int i=0;i<n;i++)
+    // {
+    //     scanf("%d",&niz[i]);
+    //     if(niz[i]%3==0){
+    //         suma+=niz[i];
+    //         brojac++;
+    //     }
+    // }
+    // as=(1.0*suma)/brojac;
+    // printf("%f",as);
+    // return 0;
+
+    //10.9
+    // int niz[100],n,sp=0,sn=0;
+    
+    // printf("unesi n:");
+    // scanf("%d",&n);
+    // for(int i=0;i<n;i++)
+    // {
+    //     scanf("%d",&niz[i]);
+    //     if(i%2==0){
+    //         sp+=niz[i];
+    //     }
+    //     else sn+=niz[i];
+        
+    // }
+    
+    // printf("%d ",sp);
+    // printf("%d ",sn);
+    // return 0;
+    
 
 
 
