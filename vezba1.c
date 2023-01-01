@@ -2215,6 +2215,153 @@ main(){
     // printf("%d ",sp);
     // printf("%d ",sn);
     // return 0;
+
+    //10.10
+    // int nizx[100],nizy[100],n,s=0;
+    
+    // printf("unesi n:");
+    // scanf("%d",&n);
+    // for(int i=0;i<n;i++)
+    // {
+    //     scanf("%d",&nizx[i]);
+    //     scanf("%d",&nizy[i]);
+    //     s+=nizx[i]*nizy[i];
+    // }
+    
+    
+    
+    // printf("%d ",s);
+    
+    // return 0;
+
+    //10.11
+    // int nizx[100],nizy[100],n,m,nizxy[100];
+    
+    // printf("unesi n:");
+    // scanf("%d",&n);
+    // printf("unesi m:");
+    // scanf("%d",&m);
+    // for(int i=0;i<n;i++)
+    // {
+    //     scanf("%d",&nizx[i]);
+        
+    // }
+    // for(int i=0;i<m;i++)
+    // {
+    //     scanf("%d",&nizy[i]);
+        
+    // }
+    // for(int i=0;i<n+m;i++)
+    // {
+    //     if(i<n)nizxy[i]=nizx[i];
+    //     else nizxy[i]=nizy[i-n];
+        
+    // }
+    
+    
+    
+    // for(int i=0;i<n+m;i++){
+    //     printf("%d ",nizxy[i]);
+    // }
+    
+    // return 0;
+
+    //10.12
+    // int nizx[100],nizy[100],n,nizxy[100];
+    
+    // printf("unesi n:");
+    // scanf("%d",&n);
+    
+    // for(int i=0;i<n;i++)
+    // {
+    //     scanf("%d",&nizx[i]);
+        
+    // }
+    // for(int i=0;i<n;i++)
+    // {
+    //     scanf("%d",&nizy[i]);
+        
+    // }
+    // for(int i=0;i<2*n;i++)
+    // {
+    //     nizxy[i]=nizx[i]*nizy[i];
+        
+    // }
+    
+    
+    
+    // for(int i=0;i<n;i++){
+    //     printf("%d ",nizxy[i]);
+    // }
+    
+    // return 0;
+
+
+    //10.14
+        // int nizx[100],nizy[100],n,nizxy[100];
+    
+    // printf("unesi n:");
+    // scanf("%d",&n);
+    
+    // for(int i=0;i<n;i++)
+    // {
+    //     scanf("%d",&nizx[i]);
+        
+    // }
+    // for(int i=0;i<n;i++)
+    // {
+    //     scanf("%d",&nizy[i]);
+        
+    // }
+    // for(int i=0;i<n;i++)
+    // {
+    //     nizxy[i]=nizx[i]+nizy[n-i-1];
+        
+    // }
+    
+    
+    
+    // for(int i=0;i<n;i++){
+    //     printf("%d ",nizxy[i]);
+    // }
+    
+    // return 0;
+
+    //10.15
+    int nizx[100],nizy[100],n,nizxy[100],br=0,m;
+    
+    printf("unesi n:");
+    scanf("%d",&n);
+    printf("unesi m:");
+    scanf("%d",&m);
+    for(int i=0;i<n;i++)
+    {
+        scanf("%d",&nizx[i]);
+        
+    }
+    for(int i=0;i<m;i++)
+    {
+        scanf("%d",&nizy[i]);
+        
+    }
+    for(int i=0;i<n;i++)
+    {if(nizx[i]%2==0){
+        nizxy[i]=nizx[i];
+        br++;}
+    }
+    
+    for(int i=0;i<m;i++){
+        if(nizy[i]%2==0){
+        nizxy[br]=nizy[i];
+        br++;}
+    }
+    
+    for(int i=0;i<br;i++){
+        printf("%d ",nizxy[i]);
+    }
+    
+    
+    return 0;
     
 
 
