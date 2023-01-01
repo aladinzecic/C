@@ -2362,6 +2362,117 @@ main(){
     
     
     return 0;
+
+    //10.16
+    int nizx[100],nizy[100],n,nizxy[100];
+    
+    printf("unesi n:");
+    scanf("%d",&n);
+    for(int i=0;i<n;i++)
+    {
+        scanf("%d",&nizx[i]);
+        
+    }
+    for(int i=0;i<n;i++)
+    {
+        scanf("%d",&nizy[i]);
+        
+    }
+    for(int i=0;i<n;i++)
+    {
+        if(nizx[i]<nizy[i]) nizxy[i]=nizx[i];
+        else if(nizx[i]>nizy[i]) nizxy[i]=nizy[i];
+        else nizxy[i]=0;
+    }
+    
+    for(int i=0;i<n;i++){
+        printf("%d ",nizxy[i]);
+    }
+    
+    
+    return 0;
+
+    //10.17
+    int nizx[100],nizy[100],n,nizz[100],j=0,k=0;
+    
+    printf("unesi n:");
+    scanf("%d",&n);
+    for(int i=0;i<n;i++)
+    {
+        scanf("%d",&nizx[i]);
+        
+    }
+    for(int i=0;i<n;i++)
+    {
+        if(nizx[i]<0) {
+            nizy[j]=nizx[i];
+            j++;
+        }
+        else {
+            nizz[k]=nizx[i];
+            k++;
+        }
+    }
+    printf("\nel niza y su\n");
+    for(int i=0;i<j;i++){
+        printf("%d ",nizy[i]);
+    }
+    printf("\nel niza z su\n");
+    for(int i=0;i<k;i++){
+        printf("%d ",nizz[i]);
+    }
+    
+    
+    return 0;
+
+    //10.18
+    int nizx[100],nizy[100],n,nizz[100],j=0,suma=0;
+    float as;
+    printf("unesi n:");
+    scanf("%d",&n);
+    for(int i=0;i<n;i++)
+    {
+        scanf("%d",&nizx[i]);
+        suma+=nizx[i];
+    }
+    as=suma*1.0/n;
+    for(int i=0;i<n;i++)
+    {
+        if(nizx[i]>as){
+            nizy[j]=nizx[i];
+            j++;
+        }
+    }
+    printf("\nel niza y su\n");
+    for(int i=0;i<j;i++){
+        printf("%d ",nizy[i]);
+    }
+    
+    
+    
+    return 0;
+
+
+    //10.19
+    int nizx[100],nizy[100],n,nizz[100],j=0,suma=0;
+    float as;
+    printf("unesi n:");
+    scanf("%d",&n);
+    for(int i=0;i<n;i++)
+    {
+        scanf("%d",&nizx[i]);
+        suma+=nizx[i];
+        nizy[i]=suma;
+    }
+    printf("\nel niza y su\n");
+    for(int i=0;i<n;i++){
+        printf("%d ",nizy[i]);
+    }
+    
+    
+    
+    return 0;
+    
     
 
 
