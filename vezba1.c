@@ -2473,10 +2473,66 @@ main(){
     
     return 0;
     
+
+    //#include <stdio.h>
+// int razliciti(int niz[],int n){
+//     int i,j,br=0;
+//     for(i=0;i<n;i++){
+//         int flag=1;
+//         for(j=i+1;j<n;j++){
+//             if(niz[i]==niz[j])
+//             flag=0;
+//             break;
+            
+//         }
+//         if(flag==1)br++;
+//     }
+//     return br;
+// }
+// int main()
+// {   int n ,niz[100],i;
+//     printf("unesi n:");
+//     scanf("%d",&n);
+//     for(i=0;i<n;i++){
+//         scanf("%d",&niz[i]);
+//     }
+//     printf("%d",razliciti(niz,n));
+    
+    
+
+//     return 0;
+// }
     
 
 
+// #include <stdio.h>
+// void fibonaci(int niz[],int n){
+//     int i;
+//     for(i=0;i<n;i++){
+//     if(i<2)niz[i]=1;
+//     else niz[i]=niz[i-1]+niz[i-2];
+//     }
+// }
 
+// void prikaza(int niz[],int n){
+//     int i;
+//     for(i=0;i<n;i++){
+//         printf("%d ",niz[i]);
+//     }
+// }
+// int main()
+// {   int n ,niz[100],i;
+//     printf("unesi n:");
+//     scanf("%d",&n);
+    
+//     fibonaci(niz,n);
+//     prikaza(niz,n);
+    
+    
+    
+
+//     return 0;
+}
 
 
 
