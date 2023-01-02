@@ -2534,6 +2534,188 @@ main(){
 //     return 0;
 }
 
+// int niz[100],n,i,max;
+//     printf("unesi n:");
+//     scanf("%d",&n);
+//     for(i=0;i<n;i++){
+//         scanf("%d",&niz[i]);
+//     }
+//     max=niz[0];
+//     for(i=1;i<n;i++){
+//         if(niz[i]>max)max=niz[i];
+//     }
+//     printf("%d",max);
+    
+
+//     return 0;
+
+
+// int niz[100],n,i,max,min;
+//     printf("unesi n:");
+//     scanf("%d",&n);
+//     for(i=0;i<n;i++){
+//         scanf("%d",&niz[i]);
+//     }
+//     max=niz[0];
+//     min=niz[0];
+//     for(i=1;i<n;i++){
+//         if(niz[i]>max)max=niz[i];
+//         if(niz[i]<min)min=niz[i];
+//     }
+//     for(i=0;i<n;i++){
+//         if((niz[i]>min*2)&&(niz[i]<(max/2)))printf("%d ",niz[i]);
+//     }
+    
+
+//     return 0;
+
+
+// int niz[100],n,i,min;
+    // printf("unesi n:");
+    // scanf("%d",&n);
+    // for(i=0;i<n;i++){
+    //     scanf("%d",&niz[i]);
+    // }
+    // for(i=0;i<n;i++){
+    //     if(niz[i]%2==0){
+    //         min=niz[i];
+    //         break;
+    //     }
+    //     if(i==n){
+    //         return 1;
+    //     }
+    // }
+    
+    
+    
+    // for(i=1;i<n;i++){
+    //     if(niz[i]%2==0&&niz[i]<min)min=niz[i];
+        
+    // }
+    // printf("%d",min);
+    
+
+    // return 0;
+
+
+    // int niz[100],n,i,max;
+    // printf("unesi n:");
+    // scanf("%d",&n);
+    // for(i=0;i<n;i++){
+    //     scanf("%d",&niz[i]);
+    // }
+    // max=niz[0];
+    // printf("%d ",niz[0]);
+    // for(i=2;i<n;i+=2){
+    //     printf("%d ",niz[i]);
+    //     if(niz[i]>max)max=niz[i];
+    // }
+    
+    
+    
+    
+    // printf("\n%d",max);
+    
+
+    // return 0;
+
+
+    // int niz[100],n,i,max;
+    // printf("unesi n:");
+    // scanf("%d",&n);
+    // for(i=0;i<n;i++){
+    //     scanf("%d",&niz[i]);
+    // }
+    // max=niz[1];
+    // printf("%d ",niz[0]);
+    // for(i=3;i<n;i+=2){
+    //     printf("%d ",niz[i]);
+    //     if(niz[i]>max)max=niz[i];
+    // }
+    
+    
+    
+    
+    // printf("\n%d",max);
+    
+
+    // return 0;
+
+    // int niz[100],n,i,max,nizf[100],br=0;
+    // printf("unesi n:");
+    // scanf("%d",&n);
+    // for(i=0;i<n;i++){
+    //     scanf("%d",&niz[i]);
+    // }
+    // nizf[0]=1;
+    // nizf[1]=1;
+    // for(i=2;i<n;i++){
+    //     nizf[i]=nizf[i-1]+nizf[i-2];
+    // }
+    // for(i=0;i<n;i++){
+    //     if(niz[i]==nizf[i])br++;
+    // }
+    // if(n==br)printf("jeste");
+    // else printf("nije");
+    
+
+    // return 0;
+
+
+
+    // int niz[100],n,i,max,nizf[100],pom;
+    // printf("unesi n:");
+    // scanf("%d",&n);
+    // for(i=0;i<n;i++){
+    //     scanf("%d",&niz[i]);
+    // }
+    // pom=niz[0];
+    // for(i=0;i<n;i++){
+    //     niz[i]=niz[i+1];
+        
+    // }
+    // niz[n-1]=pom;
+    // for(i=0;i<n;i++){
+    //     printf("%d ",niz[i]);
+    // }
+    
+
+    // return 0;
+
+
+
+//     #include <stdio.h>
+// void rotiranje(int niz[],int n){
+//     int pom,i;
+//     pom=niz[0];
+//     for(i=0;i<n;i++){
+        
+//         niz[i]=niz[i+1];
+//     }
+//     niz[n-1]=pom;
+// }
+
+// int main()
+// {   int niz[100],n,i,max,nizf[100],pom,x;
+//     printf("unesi n:");
+//     scanf("%d",&n);
+//     printf("unesi x:");
+//     scanf("%d",&x);
+//     for(i=0;i<n;i++){
+//         scanf("%d",&niz[i]);
+//     }
+    
+//     for(i=0;i<x;i++){
+//         rotiranje(niz,n);
+        
+//     }
+    
+//     for(i=0;i<n;i++){
+//         printf("%d ",niz[i]);
+//     }
+    
+
+//     return 0;
 
 
 
