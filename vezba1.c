@@ -2939,6 +2939,113 @@ int main()
 
 
 
+    int i,j,n,m,mat1[100][100],mat2[100][100],mat3[100][100];
+    printf("unesi n");scanf("%d",&n);
+    printf("unesi m");scanf("%d",&m);
+    for(i=0;i<m;i++)
+     for(j=0;j<n;j++){
+         scanf("%d",&mat1[i][j]);
+     }
+     
+     for(i=0;i<m;i++)
+     for(j=0;j<n;j++){
+         scanf("%d",&mat2[i][j]);
+     }
+     for(i=0;i<m;i++){
+     for(j=0;j<n;j++){
+         printf("%d ",mat1[i][j]);
+        
+     }
+     printf("\n");
+     }
+     for(i=0;i<m;i++){
+     for(j=0;j<n;j++){
+         printf("%d ",mat2[i][j]);
+    
+     }
+     printf("\n");
+     }
+     for(i=0;i<m;i++){
+     for(j=0;j<n;j++){
+         printf("%d ",mat1[i][j]+mat2[i][j]);
+        
+     }
+     printf("\n");
+     }
+     return 0;
+
+
+
+     int i,j,n,m,mat1[100][100],suma1=0,suma2=0;
+    printf("unesi n");scanf("%d",&n);
+    
+    for(i=0;i<n;i++)
+     for(j=0;j<n;j++){
+         scanf("%d",&mat1[i][j]);
+     }
+     
+     
+     for(i=0;i<n;i++){
+     for(j=0;j<n;j++){
+         printf("%d ",mat1[i][j]);
+        
+     }
+     printf("\n");
+     }
+     for(i=0;i<n;i++)
+     for(j=0;j<n;j++){
+         if(i==j){
+             printf("%d ",mat1[i][j]);
+             suma1+=mat1[i][j];
+         }
+     }
+     printf("%d",suma1);
+     
+     for(i=0;i<n;i++)
+     for(j=0;j<n;j++){
+         if(i+j==n-1){
+             printf("%d ",mat1[i][j]);
+             suma2+=mat1[i][j];
+         }
+     }
+     printf("%d",suma2);
+     
+      
+     return 0;
+
+
+
+int i,j,n,m,mat1[100][100],suma1=0,suma2=0;
+    printf("unesi n");scanf("%d",&n);
+    
+    for(i=0;i<n;i++)
+     for(j=0;j<n;j++){
+         scanf("%d",&mat1[i][j]);
+     }
+     
+     
+     for(i=0;i<n;i++){
+     for(j=0;j<n;j++){
+         printf("%d ",mat1[i][j]);
+        
+     }
+     printf("\n");
+     }
+     for(i=0;i<n;i++){
+     for(j=0;j<n;j++){
+         suma1+=mat1[i][j];
+         
+     }
+     printf("%d ",suma1);
+     suma1=0;
+     }
+   
+
+     
+      
+     return 0;
+
+
 
 
 
