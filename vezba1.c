@@ -2837,213 +2837,398 @@ main(){
 ///////////////////////////////43///////////////////////////////////////////////////////////////
 
 #include <stdio.h>
-void printanje(int niz[],int n){
-    int i;
-    for(i=0;i<n;i++){
-        printf("%d ",niz[i]);
-    }
-}
+// void printanje(int niz[],int n){
+//     int i;
+//     for(i=0;i<n;i++){
+//         printf("%d ",niz[i]);
+//     }
+// }
 
-int main()
-{
-    int niza[100],n,i,max,nizb[100],pom,x,nadjen,j,nizc[100],m;
+// int main()
+// {
+//     int niza[100],n,i,max,nizb[100],pom,x,nadjen,j,nizc[100],m;
     
-    printf("unesi n:");
-    scanf("%d",&n);
-    printf("unesi m:");
-    scanf("%d",&m);
-    for(i=0;i<n;i++){
-        scanf("%d",&niza[i]);
-    }
-    for(i=0;i<m;i++){
-        scanf("%d",&nizb[i]);
-    }
+//     printf("unesi n:");
+//     scanf("%d",&n);
+//     printf("unesi m:");
+//     scanf("%d",&m);
+//     for(i=0;i<n;i++){
+//         scanf("%d",&niza[i]);
+//     }
+//     for(i=0;i<m;i++){
+//         scanf("%d",&nizb[i]);
+//     }
     
-    for(i=0;i<n+m;i++){
-        if(i<n)nizc[i]=niza[i];
-        else nizc[i]=nizb[i-n];
-    }
+//     for(i=0;i<n+m;i++){
+//         if(i<n)nizc[i]=niza[i];
+//         else nizc[i]=nizb[i-n];
+//     }
     
     
-    for(i=0;i<n+m-1;i++){
-        for(j=i+1;j<n+m;j++){
-     if(nizc[i]>nizc[j]){
-         pom=nizc[i];
-         nizc[i]=nizc[j];
-         nizc[j]=pom;
-     }
-        }
-    }
+//     for(i=0;i<n+m-1;i++){
+//         for(j=i+1;j<n+m;j++){
+//      if(nizc[i]>nizc[j]){
+//          pom=nizc[i];
+//          nizc[i]=nizc[j];
+//          nizc[j]=pom;
+//      }
+//         }
+//     }
     
-    printanje(nizc,n+m);
+//     printanje(nizc,n+m);
 
     
     
     
 
-    return 0;
-}
+//     return 0;
+// }
 
 
 
-//44/////////////////////////////////////////////////////////////////////////////////////////////
-#include <stdio.h>
-void printanje(int niz[],int n){
-    int i;
-    for(i=0;i<n;i++){
-        printf("%d ",niz[i]);
-    }
-}
+// //44/////////////////////////////////////////////////////////////////////////////////////////////
+// #include <stdio.h>
+// void printanje(int niz[],int n){
+//     int i;
+//     for(i=0;i<n;i++){
+//         printf("%d ",niz[i]);
+//     }
+// }
 
-int main()
-{
-    int niz[100],n,brojac=1,i,max,nizb[100],pom,x,nadjen,j,nizc[100],maxbr,maxi;
+// int main()
+// {
+//     int niz[100],n,brojac=1,i,max,nizb[100],pom,x,nadjen,j,nizc[100],maxbr,maxi;
     
-    printf("unesi n:");
-    scanf("%d",&n);
+//     printf("unesi n:");
+//     scanf("%d",&n);
     
-    for(i=0;i<n;i++){
-        scanf("%d",&niz[i]);
-    }
-    for(i=0;i<n-1;i++){
-        for(j=i+1;j<n;j++){
-     if(niz[i]>niz[j]){
-         pom=niz[i];
-         niz[i]=niz[j];
-         niz[j]=pom;
-     }
-        }
-    }
-    maxbr=0;
-    maxi=0;
-    for(i=0;i<n-1;i++){
-        if(niz[i]==niz[i+1]){
-            brojac++;
+//     for(i=0;i<n;i++){
+//         scanf("%d",&niz[i]);
+//     }
+//     for(i=0;i<n-1;i++){
+//         for(j=i+1;j<n;j++){
+//      if(niz[i]>niz[j]){
+//          pom=niz[i];
+//          niz[i]=niz[j];
+//          niz[j]=pom;
+//      }
+//         }
+//     }
+//     maxbr=0;
+//     maxi=0;
+//     for(i=0;i<n-1;i++){
+//         if(niz[i]==niz[i+1]){
+//             brojac++;
             
-        }
-        if(brojac>maxbr){
-            maxbr=brojac;
-            maxi=niz[i];
-        }
-    }
+//         }
+//         if(brojac>maxbr){
+//             maxbr=brojac;
+//             maxi=niz[i];
+//         }
+//     }
     
     
-    printanje(niz,n);
-    printf("\n%d %d",maxbr,maxi);
+//     printanje(niz,n);
+//     printf("\n%d %d",maxbr,maxi);
 
     
     
     
 
-    return 0;
+//     return 0;
 
 
 
-    int i,j,n,m,mat1[100][100],mat2[100][100],mat3[100][100];
-    printf("unesi n");scanf("%d",&n);
-    printf("unesi m");scanf("%d",&m);
-    for(i=0;i<m;i++)
-     for(j=0;j<n;j++){
-         scanf("%d",&mat1[i][j]);
-     }
+//     int i,j,n,m,mat1[100][100],mat2[100][100],mat3[100][100];
+//     printf("unesi n");scanf("%d",&n);
+//     printf("unesi m");scanf("%d",&m);
+//     for(i=0;i<m;i++)
+//      for(j=0;j<n;j++){
+//          scanf("%d",&mat1[i][j]);
+//      }
      
-     for(i=0;i<m;i++)
-     for(j=0;j<n;j++){
-         scanf("%d",&mat2[i][j]);
-     }
-     for(i=0;i<m;i++){
-     for(j=0;j<n;j++){
-         printf("%d ",mat1[i][j]);
+//      for(i=0;i<m;i++)
+//      for(j=0;j<n;j++){
+//          scanf("%d",&mat2[i][j]);
+//      }
+//      for(i=0;i<m;i++){
+//      for(j=0;j<n;j++){
+//          printf("%d ",mat1[i][j]);
         
-     }
-     printf("\n");
-     }
-     for(i=0;i<m;i++){
-     for(j=0;j<n;j++){
-         printf("%d ",mat2[i][j]);
+//      }
+//      printf("\n");
+//      }
+//      for(i=0;i<m;i++){
+//      for(j=0;j<n;j++){
+//          printf("%d ",mat2[i][j]);
     
-     }
-     printf("\n");
-     }
-     for(i=0;i<m;i++){
-     for(j=0;j<n;j++){
-         printf("%d ",mat1[i][j]+mat2[i][j]);
+//      }
+//      printf("\n");
+//      }
+//      for(i=0;i<m;i++){
+//      for(j=0;j<n;j++){
+//          printf("%d ",mat1[i][j]+mat2[i][j]);
         
-     }
-     printf("\n");
-     }
-     return 0;
+//      }
+//      printf("\n");
+//      }
+//      return 0;
 
 
 
-     int i,j,n,m,mat1[100][100],suma1=0,suma2=0;
-    printf("unesi n");scanf("%d",&n);
+//      int i,j,n,m,mat1[100][100],suma1=0,suma2=0;
+//     printf("unesi n");scanf("%d",&n);
     
-    for(i=0;i<n;i++)
-     for(j=0;j<n;j++){
-         scanf("%d",&mat1[i][j]);
-     }
+//     for(i=0;i<n;i++)
+//      for(j=0;j<n;j++){
+//          scanf("%d",&mat1[i][j]);
+//      }
      
      
-     for(i=0;i<n;i++){
-     for(j=0;j<n;j++){
-         printf("%d ",mat1[i][j]);
+//      for(i=0;i<n;i++){
+//      for(j=0;j<n;j++){
+//          printf("%d ",mat1[i][j]);
         
-     }
-     printf("\n");
-     }
-     for(i=0;i<n;i++)
-     for(j=0;j<n;j++){
-         if(i==j){
-             printf("%d ",mat1[i][j]);
-             suma1+=mat1[i][j];
-         }
-     }
-     printf("%d",suma1);
+//      }
+//      printf("\n");
+//      }
+//      for(i=0;i<n;i++)
+//      for(j=0;j<n;j++){
+//          if(i==j){
+//              printf("%d ",mat1[i][j]);
+//              suma1+=mat1[i][j];
+//          }
+//      }
+//      printf("%d",suma1);
      
-     for(i=0;i<n;i++)
-     for(j=0;j<n;j++){
-         if(i+j==n-1){
-             printf("%d ",mat1[i][j]);
-             suma2+=mat1[i][j];
-         }
-     }
-     printf("%d",suma2);
+//      for(i=0;i<n;i++)
+//      for(j=0;j<n;j++){
+//          if(i+j==n-1){
+//              printf("%d ",mat1[i][j]);
+//              suma2+=mat1[i][j];
+//          }
+//      }
+//      printf("%d",suma2);
      
       
-     return 0;
+//      return 0;
 
 
 
-int i,j,n,m,mat1[100][100],suma1=0,suma2=0;
-    printf("unesi n");scanf("%d",&n);
+// int i,j,n,m,mat1[100][100],suma1=0,suma2=0;
+//     printf("unesi n");scanf("%d",&n);
     
-    for(i=0;i<n;i++)
-     for(j=0;j<n;j++){
-         scanf("%d",&mat1[i][j]);
-     }
+//     for(i=0;i<n;i++)
+//      for(j=0;j<n;j++){
+//          scanf("%d",&mat1[i][j]);
+//      }
      
      
-     for(i=0;i<n;i++){
-     for(j=0;j<n;j++){
-         printf("%d ",mat1[i][j]);
+//      for(i=0;i<n;i++){
+//      for(j=0;j<n;j++){
+//          printf("%d ",mat1[i][j]);
         
-     }
-     printf("\n");
-     }
-     for(i=0;i<n;i++){
-     for(j=0;j<n;j++){
-         suma1+=mat1[i][j];
+//      }
+//      printf("\n");
+//      }
+//      for(i=0;i<n;i++){
+//      for(j=0;j<n;j++){
+//          suma1+=mat1[i][j];
          
-     }
-     printf("%d ",suma1);
-     suma1=0;
-     }
+//      }
+//      printf("%d ",suma1);
+//      suma1=0;
+//      }
    
 
      
       
-     return 0;
+//      return 0;
+
+
+//      int i,j,n,m,mat1[100][100],suma1=0,suma2=0,brvr;
+//     printf("unesi n");scanf("%d",&n);
+//     printf("unesi brvr");scanf("%d",&brvr);
+//     for(i=0;i<n;i++)
+//      for(j=0;j<n;j++){
+//          scanf("%d",&mat1[i][j]);
+//      }
+     
+     
+//      for(i=0;i<n;i++){
+//      for(j=0;j<n;j++){
+//          printf("%d ",mat1[i][j]);
+        
+//      }
+//      printf("\n");
+//      }
+     
+//      for(j=0;j<n;j++){
+//          suma1+=mat1[brvr-1][j];
+         
+//      }
+//      printf("%d",suma1);
+     
+   
+
+     
+      
+//      return 0;
+
+
+//      int i,j,n,m,mat1[100][100],suma1=0,suma2=0,brvr;
+//     printf("unesi n");scanf("%d",&n);
+//     for(i=0;i<n;i++)
+//      for(j=0;j<n;j++){
+//          scanf("%d",&mat1[i][j]);
+//      }
+     
+     
+//      for(i=0;i<n;i++){
+//      for(j=0;j<n;j++){
+//          printf("%d ",mat1[i][j]);
+        
+//      }
+//      printf("\n");
+//      }
+     
+//      for(j=0;j<n;j++){
+//          if(j%2==0){
+//              for(i=0;i<n;i++)
+//              printf("%d ",mat1[i][j]);
+//          }
+//          else for(i=n-1;i>=0;i--)
+//          printf("%d ",mat1[i][j]);
+//      }
+     
+     
+   
+
+     
+      
+//      return 0;
+
+
+
+//      int i,j,n,m,suma1=0,suma2=0;
+//     float del,mat1[100][100];
+//     printf("unesi n");scanf("%d",&n);
+//     for(i=0;i<n;i++)
+//      for(j=0;j<n;j++){
+//          scanf("%f",&mat1[i][j]);
+//      }
+     
+     
+//      for(i=0;i<n;i++){
+//      for(j=0;j<n;j++){
+//          printf("%f ",mat1[i][j]);
+        
+//      }
+//      printf("\n");
+//      }
+     
+//      for(i=0;i<n;i++){
+//          if(mat1[i][i]!=0){
+//              del=mat1[i][i];
+//             for(j=0;j<n;j++){
+                
+//                 mat1[i][j]/=del;
+//             }
+//          }
+//          else {
+//              for(j=0;j<n;j++){
+//                 mat1[i][j]=0;
+//                 mat1[i][i]=1;
+//             }
+//          }
+         
+//      }
+//       for(i=0;i<n;i++){
+//      for(j=0;j<n;j++){
+//          printf("%f ",mat1[i][j]);
+        
+//      }
+//      printf("\n");
+
+
+//      int i,j,n,m,suma1=0,suma2=0,x,mat1[100][100];
+
+//     printf("unesi n");scanf("%d",&n);
+//     printf("unesi x");scanf("%d",&x);
+//     for(i=0;i<n;i++)
+//      for(j=0;j<n;j++){
+//          scanf("%d",&mat1[i][j]);
+//      }
+     
+     
+//      for(i=0;i<n;i++){
+//      for(j=0;j<n;j++){
+//          printf("%d ",mat1[i][j]);
+        
+//      }
+//      printf("\n");
+//      }
+     
+//      for(i=0;i<n;i++)
+//      for(j=0;j<n;j++){
+//          if(i>j){
+//              mat1[i][j]+=x;
+//          }
+//          else if(i<j)mat1[i][j]-=x;
+        
+//      }
+     
+     
+     
+     
+//       for(i=0;i<n;i++){
+//      for(j=0;j<n;j++){
+//          printf("%d ",mat1[i][j]);
+        
+//      }
+//      printf("\n");
+//      }
+
+//      return 0;
+
+
+//      int i,j,n,m,suma1=0,suma2=0,x,mat1[100][100],m1,m2,pom;
+
+//     printf("unesi n");scanf("%d",&n);
+//     printf("unesi m");scanf("%d",&m);
+//     printf("unesi m1 i m2");scanf("%d %d",&m1,&m2);
+//     for(i=0;i<m;i++)
+//      for(j=0;j<n;j++){
+//          scanf("%d",&mat1[i][j]);
+//      }
+     
+     
+//      for(i=0;i<m;i++){
+//      for(j=0;j<n;j++){
+//          printf("%d ",mat1[i][j]);
+        
+//      }
+//      printf("\n");
+//      }
+    
+//      for(i=0;i<n;i++){
+//       pom=mat1[i][m1];
+//       mat1[i][m1]=mat1[i][m2];
+//       mat1[i][m2]=pom;
+//      }
+     
+     
+     
+     
+//       for(i=0;i<m;i++){
+//      for(j=0;j<n;j++){
+//          printf("%d ",mat1[i][j]);
+        
+//      }
+//      printf("\n");
+//      }
+
+//      return 0;
 
 
 
