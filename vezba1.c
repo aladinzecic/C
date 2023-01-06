@@ -3076,30 +3076,30 @@ main(){
 //      return 0;
 
 
-//      int i,j,n,m,mat1[100][100],suma1=0,suma2=0,brvr;
-//     printf("unesi n");scanf("%d",&n);
-//     for(i=0;i<n;i++)
-//      for(j=0;j<n;j++){
-//          scanf("%d",&mat1[i][j]);
-//      }
+    //  int i,j,n,m,mat1[100][100],suma1=0,suma2=0,brvr;
+    // printf("unesi n");scanf("%d",&n);
+    // for(i=0;i<n;i++)
+    //  for(j=0;j<n;j++){
+    //      scanf("%d",&mat1[i][j]);
+    //  }
      
      
-//      for(i=0;i<n;i++){
-//      for(j=0;j<n;j++){
-//          printf("%d ",mat1[i][j]);
+    //  for(i=0;i<n;i++){
+    //  for(j=0;j<n;j++){
+    //      printf("%d ",mat1[i][j]);
         
-//      }
-//      printf("\n");
-//      }
+    //  }
+    //  printf("\n");
+    //  }
      
-//      for(j=0;j<n;j++){
-//          if(j%2==0){
-//              for(i=0;i<n;i++)
-//              printf("%d ",mat1[i][j]);
-//          }
-//          else for(i=n-1;i>=0;i--)
-//          printf("%d ",mat1[i][j]);
-//      }
+    //  for(j=0;j<n;j++){
+    //      if(j%2==0){
+    //          for(i=0;i<n;i++)
+    //          printf("%d ",mat1[i][j]);
+    //      }
+    //      else for(i=n-1;i>=0;i--)
+    //      printf("%d ",mat1[i][j]);
+    //  }
      
      
    
@@ -3325,10 +3325,10 @@ main(){
 // }
 // for(i=0;i<n-1;i++){
 //  for(j=i+1;j<n;j++){
-//      if(niz[i]>niz[i+1]){
+//      if(niz[i]>niz[j]){
 //          pom=niz[i];
-//          niz[i]=niz[i+1];
-//          niz[i+1]=pom;
+//          niz[i]=niz[j];
+//          niz[j]=pom;
 //      }
 //  }
 // }
@@ -3339,6 +3339,36 @@ main(){
 //         if(suma>budzet)break;
 //     }
 //     printf("%d",i);
+
+
+// int i,niz[100],n,budzet,pom,j,suma=0,makica[100][100],x,br=0;
+// printf("unesi n");
+// scanf("%d",&n);
+// for(i=0;i<n;i++)
+//     scanf("%d",&niz[i]);
+    
+    
+
+// for(i=0;i<n;i++){
+//  for(j=i+1;j<n;j++){
+//      if(niz[i]>niz[j]){
+//          pom=niz[i];
+//          niz[i]=niz[j];
+//          niz[j]=pom;
+//      }
+//  }
+// }
+
+// for(i=0;i<n;i++){
+//     printf("%d ",niz[i]);
+// }
+// x=niz[1]-niz[0];
+// for(i=0;i<n;i++){
+//     if(niz[i+1]-niz[i]==x)br++;
+// }
+// if(br+1==n)printf("jes");
+// else printf("nije");
+// return 0;
 
 
 //     int main()
@@ -3359,13 +3389,74 @@ main(){
 // }
 
 
-//     for(i=0;i<n;i++){
-//         for(j=0;j<n;j++){
-//             printf("%d ",makica[i][j]);
+    // for(i=0;i<n;i++){
+    //     for(j=0;j<n;j++){
+    //         printf("%d ",makica[i][j]);
+    //     }
+    //     printf("\n");
+    // }
+    
+// return 0;
+
+
+
+
+//KUPUS URADJEN
+// int i,j,mat[100][100],m,kupus=0,br=0,a;
+
+
+// printf("unesi m");
+// scanf("%d",&m);
+
+// for(i=0;i<m;i++)
+// for(j=0;j<m;j++){
+//     scanf("%d",&mat[i][j]);
+// }
+ 
+// for(i=0;i<m;i++){
+//         for(j=0;j<m;j++){
+//             printf("%d ",mat[i][j]);
 //         }
 //         printf("\n");
 //     }
     
+// i=0;
+// j=0;
+// while(a!='k'){
+//     a=getchar();
+    
+//     if(a=='l'){
+//         j--;
+//         br++;
+//         if(mat[i][j]==1){
+//         kupus++;
+//     }
+//     }
+//     if(a=='d'){
+//         j++;
+//         br++;
+//         if(mat[i][j]==1){
+//         kupus++;
+//     }
+//     }
+//     if(a=='g'){
+//         i--;
+//         br++;
+//         if(mat[i][j]==1){
+//         kupus++;
+//     }
+//     }
+//     if(a=='n'){
+//         i++;
+//         br++;
+//         if(mat[i][j]==1){
+//         kupus++;
+//     }
+//     }
+    
+
+// }
+// printf("\n%d  %d",kupus,br);
 // return 0;
 
 
