@@ -3461,6 +3461,44 @@ main(){
 
 
 
+// int i,j,br=0,n1,n2;
+// char a[100],b[100];
+// gets(a);
+// n1=strlen(a);
+// gets(b);
+// n2=strlen(b);
+// for(i=0;i<n1;i++){
+//     for(j=0;j<n2;j++){
+//         if(a[i]==b[j]){
+            
+//             br++;
+//             break;
+            
+//         }
+        
+//     }
+    
+    
+// }
+// if(n1==br)printf("jesu");
+// else printf("%d ",br);
+// return 0;
+
+
+// int i,j,niz[100],n,br1=0,br2=0;
+// printf("unesi n:");scanf("%d",&n);
+// for(i=0;i<n;i++)
+// scanf("%d",&niz[i]);
+// for(i=0;i<n;i++){
+//     for(j=i-1;j>=0;j--)br1+=niz[j];
+//     for(j=i+1;j<n;j++)br2+=niz[j];
+    
+
+//     if(br1==br2)printf("uravnotezen je za %d",i);
+//     br1=0;
+//     br2=0;
+// }
+// return 0;
 
 
 
