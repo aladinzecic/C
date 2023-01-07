@@ -3503,3 +3503,66 @@ main(){
 
 
 
+
+
+
+// int i,j,niz1[100],niz2[100],niz3[100],n,br=0;
+// printf("unesi n");
+// scanf("%d",&n);
+// for(i=0;i<n;i++){
+//         scanf("%d",&niz1[i]);
+//     }
+// for(i=0;i<n;i++){
+//         scanf("%d",&niz2[i]);
+//     }
+    
+//     for(i=0;i<n;i++){
+//         for(j=0;j<n;j++){
+//             if(niz1[i]==niz2[j]){
+//                 niz3[br]=niz1[i];
+//                 br++;
+//             }
+//         }
+//     }
+//     for(i=0;i<br;i++){
+//         printf("%d ",niz3[i]);
+//     }
+   
+// return 0;
+
+
+// void preslikavanje(int niz1[],int niz2[],int n){
+//     int i,j,niz3[100],br=0;
+//         for(i=0;i<n;i++){
+//         for(j=0;j<n;j++){
+//             if(niz1[i]==niz2[j]){
+//                 niz3[br]=niz1[i];
+//                 br++;
+//             }
+//         }
+//     }
+//     for(i=0;i<br;i++){
+//         printf("%d ",niz3[i]);
+//     }
+    
+// }
+
+
+
+
+
+// int main()
+// { int i,j,niz1[100],niz2[100],niz3[100],n,br=0;
+// printf("unesi n");
+// scanf("%d",&n);
+// for(i=0;i<n;i++){
+//         scanf("%d",&niz1[i]);
+//     }
+// for(i=0;i<n;i++){
+//         scanf("%d",&niz2[i]);
+//     }
+//     preslikavanje(niz1,niz2,n);
+   
+// return 0;
+// }
+
