@@ -3566,3 +3566,63 @@ main(){
 // return 0;
 // }
 
+
+
+
+// int **a,br=0,s=0,i,j,n,m,max=0,imax=0,smax=0;
+//     printf ("bez zajebancije n : "); scanf ("%d" , &n);
+//     printf ("bez zajebancije m : "); scanf ("%d" , &m);
+//     a=(int **)malloc(m*sizeof(int*));
+//     if (a==NULL) {
+//         printf ("nema se");
+//         exit(1);
+//     }
+//     for (i=0;i<m;i++) {
+//         a[i]=(int *)malloc(n*sizeof(int*));
+        
+//         if (a==NULL) {
+//            for (j=0;j<i;i++) {
+//                free(a[j]);
+//                free(a);
+//                exit(1);
+//            }
+        
+            
+//         }
+        
+//     }
+    
+//     printf ("unesi matricu : ");
+//     for (i=0;i<m;i++){
+//     for(j=0;j<n;j++) {
+//      scanf ("%d" ,&a[i][j] );  
+//     }
+//     }
+    
+//     for (i=0;i<m;i++){
+//     for (j=0;j<n;j++) {
+        
+//         if (a[i][j]>0) br++;
+//         s+=a[i][j];
+//         if(br>max){
+//             max=br;
+//             imax=i;
+            
+//             smax=s;
+            
+//         }
+//         if(max==br){
+//             if(s>smax){
+//                 smax=s;
+//                 imax=i;
+//             }
+//         }
+        
+//     }    
+//     s=0;
+//     br=0;
+    
+//     }
+// printf("%d",imax+1);
+    
+//     return 0;
