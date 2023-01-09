@@ -3626,3 +3626,26 @@ main(){
 // printf("%d",imax+1);
     
 //     return 0;
+
+
+// int *a=NULL , duzina=0, alocirano=0, n, i;
+//  printf("\n Unosite brojeve. Za kraj unosa unesite 0:\n");
+//  do
+//  {
+//  scanf("%d", &n);
+//  /*Ukoliko nema vise slobodnih mesta, vrsi se prosirivanje.*/
+//  if(duzina==alocirano)
+//  {
+//  /*Niz se prosiruje na 10 elemenata vise.*/
+//  alocirano+=KORAK;
+//  a=realloc(a, alocirano*sizeof(int));
+//  }
+//  a[duzina]=n;
+//  duzina++;
+//  } while(n!=0);
+//  printf("\n Obrnuti niz: ");
+//  for(i=duzina-2; i>=0; i--)
+//  printf(" %d",a[i]);
+//  free(a);
+//  getche();
+//  return 0; 
