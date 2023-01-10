@@ -3649,3 +3649,31 @@ main(){
 //  free(a);
 //  getche();
 //  return 0; 
+
+
+
+
+
+// int n, i,j=0,k=0;
+//  char s[100+1];
+//  printf("\n Unesite string: ");
+//  gets(s);
+//  n=strlen(s);
+//  printf("\n Novi string: ");
+//  for(i=0; i<n; i++){
+//      if(s[i]=='/'&&s[i+1]=='*'){
+//          j=i;
+//      }
+//  }
+//  for(i=0; i<n; i++){
+//      if(s[i]=='/'&&s[i-1]=='*'){
+//          k=i;
+//      }
+//  }
+ 
+//  for(i=0;i<n;i++){
+//      if(i<j||i>k)printf("%c", s[i]);
+//  }
+ 
+ 
+//  return 0;
