@@ -3677,3 +3677,89 @@ main(){
  
  
 //  return 0;
+
+
+
+
+// #include <stdio.h>
+
+// struct zaposleni{
+//     char ime[100];
+//     char prezime[100];
+//     char radno[100];
+//     float plata;
+// };
+
+
+
+// int main()
+// {int n,i;
+//     struct zaposleni radnik[100];
+    
+// printf("unesi n:");
+// scanf("%d",&n);
+// for(i=0;i<n;i++){
+//  printf("\n Unesite podatke o zaposlenom %d\n",i+1);
+//  printf(" Unesite ime: ");
+// scanf("%s",&radnik[i].ime);
+//  printf(" Unesite prezime: ");
+//  scanf("%s",&radnik[i].prezime);
+//  printf(" Unesite radno mesto: ");
+//  scanf("%s",&radnik[i].radno);
+//  printf(" Unesite platu: ");
+//  scanf("%f",&radnik[i].plata);
+// }
+// for(i=0;i<n;i++){
+//     printf("\npodaci o zaposlenom %d",i+1);
+//     printf("\nime:%s",radnik[i].ime);
+//     printf("\nprezime:%s",radnik[i].prezime);
+//     printf("\nradno:%s",radnik[i].radno);
+//     printf("\nplata:%f",radnik[i].plata);
+// }
+// return 0;
+// }
+
+
+
+// #include <stdio.h>
+
+// struct fakultet{
+//     char ime[100];
+//     char prezime[100];
+//     int indeks;
+//     int brpr;
+//     float prosek;
+// };
+
+
+
+
+
+// int main()
+// {int n,i;
+// float prosekoc=0;
+// struct fakultet student[n];
+// printf("unesi br studenata:\n");
+// scanf("%d",&n);
+// for(i=0;i<n;i++){
+// printf("unesi podatke o %d studentu :\n",i+1);
+// printf("ime:\n");
+// scanf("%s",&student[i].ime);
+// printf("prezime:\n");
+// scanf("%s",&student[i].prezime);
+// printf("indeks:\n");
+// scanf("%d",&student[i].indeks);
+// printf("broj prenetih:\n");
+// scanf("%d",&student[i].brpr);
+// printf("broj prosek:\n");
+// scanf("%f",&student[i].prosek);
+// prosekoc+=student[i].prosek;
+// }
+// prosekoc=prosekoc*1.0/n;
+// printf("student koji su primljeni :\n");
+// for(i=0;i<n;i++){
+//     if(student[i].prosek>prosekoc&&student[i].brpr<5){
+        
+//         printf("ime: %s %s %d\n",student[i].ime,student[i].prezime,student[i].indeks);
+        
+//     }
