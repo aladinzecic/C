@@ -3681,9 +3681,9 @@ main(){
 
 
 
-// #include <stdio.h>
+// // #include <stdio.h>
 
-// struct zaposleni{
+// // struct zaposleni{
 //     char ime[100];
 //     char prezime[100];
 //     char radno[100];
@@ -3732,6 +3732,56 @@ main(){
 // };
 
 
+// #include <stdio.h>
+// typedef struct ucenici{
+//     char ime[30];
+//     char prezime[30];
+//     char adresa[30];
+//     int razred;
+//     int odeljenje;
+// }UCENICI;
+
+// int main()
+// {   UCENICI ucenik[100];
+    
+//     FILE *dato;
+//     if((dato=fopen("ucenici.txt","w"))==NULL){
+//         printf("greska");
+//         return 1;
+//     }
+//     printf("unesi n");
+//     scanf("%d",&n);
+//     for(i=0;i<n;i++){
+//         printf("unesi ime:")
+//         scanf("%s",ucenik[i].ime);
+//         printf("unesi prezime:")
+//         scanf("%s",ucenik[i].prezime);
+//         printf("unesi adresa:")
+//         scanf("%s",ucenik[i].adresa);
+//         printf("unesi razred:")
+//         scanf("%d",ucenik[i].razred);
+//         printf("unesi odeljenje:")
+//         scanf("%d",ucenik[i].odeljenje);
+//         fprintf(dato,"%s %s %s %d %d",ucenik[i].ime,ucenik[i].prezime,ucenik[i].adresa,ucenik[i].razred,ucenik[i].odeljenje)
+//     }
+//     fclose(dato);
+//         printf("unesi x");
+//     scanf("%d",&x);
+//     if((dato=fopen("ucenici.txt","r"))==NULL){
+//         printf("greska");
+//         return 1;
+//     }
+//     for(i=0;i<n;i++){
+//         fscanf(dato,"%s%s%s%d%d",&ucenik[i].ime,&ucenik[i].prezime,&ucenik[i].adresa,&ucenik[i].razred,&ucenik[i].odeljenje)
+//         if(ucenik[i].razred==x){
+//             printf("%s%s%s%d%d",ucenik[i].ime,ucenik[i].prezime,ucenik[i].adresa,ucenik[i].razred,ucenik[i].odeljenje)
+//         }
+//     }
+//     fclose(dato);
+//     return 0;
+    //dal se pada
+
+
 
 
 
@@ -3763,3 +3813,60 @@ main(){
 //         printf("ime: %s %s %d\n",student[i].ime,student[i].prezime,student[i].indeks);
         
 //     }
+
+
+// int i, j, m, n;
+//  double **a;
+//  double trag, norma, vdnorma;
+//  printf("\n Broj vrsta: ");
+//  scanf("%d", &m);
+//  printf(" Broj kolona: ");
+//  scanf("%d", &n);
+//  /*dinamicki alociramo prostor za n pokazivaca na double-ove*/
+// a=(int**)malloc(m*int*);
+// if(a==NULL){
+//     exit(1);
+// }
+// for(i=0;i<m;i++){
+//     a[i]=(int*)malloc(n*int);
+//     if(a[i]==NULL){
+//         for(j=0;j<i;j++)
+//         free(a[j]);
+//         free(a);
+//         exit(1);
+//     }
+// }
+//  printf("\n Unesite elemente matrice:\n");
+//  for(i=0; i<m; i++)
+//  for(j=0; j<n; j++)
+//  {
+//  printf(" a[%d][%d] = ", i, j);
+//  scanf("%lf", &a[i][j]);
+//  }
+//  printf("\n Uneli ste matricu:\n");
+//  for(i=0; i<m; i++)
+//  {
+//  for(j=0; j<n; j++)
+//  printf(" %.2f", a[i][j]);
+//  printf("\n");
+//  }
+//  trag=0.0;
+//  for(i=0; i<n; i++)
+//  trag += a[i][i];
+//  printf(" Trag matrice: %.2f\n",trag);
+//  norma=0.0;
+//  for(i=0; i<m; i++)
+//  for(j=0; j<n; j++)
+//  norma += a[i][j]*a[i][j];
+//  norma=sqrt(norma);
+//  printf(" Euklidska norma matrice: %.2f\n", norma);
+//  vdnorma = 0.0;
+//  for(i=0; i<m; i++)
+//  for(j=i+1; j<n; j++)
+//  vdnorma+=fabs(a[i][j]);
+//  printf(" Gornja vandijagonalna norma matrice: %.2f\n", vdnorma);
+//  for(j=0;j<m;j++){
+//     free(a[j]);
+//     free(a);
+//  }
+//  return 0;
