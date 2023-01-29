@@ -1,8 +1,8 @@
-#include <stdio.h>
-#include <math.h>
-#include <stdlib.h>
-#define MAX 100 
-main(){
+// #include <stdio.h>
+// #include <math.h>
+// #include <stdlib.h>
+// #define MAX 100 
+// main(){
     // float broj;
     // printf("unesite realan broj:");
     // scanf("%f", &broj);
@@ -212,15 +212,15 @@ main(){
     // return 0;
 
 
-    int a,b,x;
-    printf("unesi broj x:");
-    scanf("%d",&x);
-    printf("unesi gornju i donju granicu:");
-    scanf("%d%d",&a,&b);
-    if((a<=x*x<=b))
-    printf("kvadrat vaseg broja je izmedju %d i %d",a,b);
-    else printf("kvadrat vaseg broja nije izmedju %d i %d",a,b);
-    return 0;
+    // int a,b,x;
+    // printf("unesi broj x:");
+    // scanf("%d",&x);
+    // printf("unesi gornju i donju granicu:");
+    // scanf("%d%d",&a,&b);
+    // if((a<=x*x<=b))
+    // printf("kvadrat vaseg broja je izmedju %d i %d",a,b);
+    // else printf("kvadrat vaseg broja nije izmedju %d i %d",a,b);
+    // return 0;
 
     // int a,b,c;
     // printf("unesi tri realna broja:");
@@ -2328,150 +2328,150 @@ main(){
     // return 0;
 
     //10.15
-    int nizx[100],nizy[100],n,nizxy[100],br=0,m;
+    // int nizx[100],nizy[100],n,nizxy[100],br=0,m;
     
-    printf("unesi n:");
-    scanf("%d",&n);
-    printf("unesi m:");
-    scanf("%d",&m);
-    for(int i=0;i<n;i++)
-    {
-        scanf("%d",&nizx[i]);
+    // printf("unesi n:");
+    // scanf("%d",&n);
+    // printf("unesi m:");
+    // scanf("%d",&m);
+    // for(int i=0;i<n;i++)
+    // {
+    //     scanf("%d",&nizx[i]);
         
-    }
-    for(int i=0;i<m;i++)
-    {
-        scanf("%d",&nizy[i]);
+    // }
+    // for(int i=0;i<m;i++)
+    // {
+    //     scanf("%d",&nizy[i]);
         
-    }
-    for(int i=0;i<n;i++)
-    {if(nizx[i]%2==0){
-        nizxy[i]=nizx[i];
-        br++;}
-    }
+    // }
+    // for(int i=0;i<n;i++)
+    // {if(nizx[i]%2==0){
+    //     nizxy[i]=nizx[i];
+    //     br++;}
+    // }
     
-    for(int i=0;i<m;i++){
-        if(nizy[i]%2==0){
-        nizxy[br]=nizy[i];
-        br++;}
-    }
+    // for(int i=0;i<m;i++){
+    //     if(nizy[i]%2==0){
+    //     nizxy[br]=nizy[i];
+    //     br++;}
+    // }
     
-    for(int i=0;i<br;i++){
-        printf("%d ",nizxy[i]);
-    }
+    // for(int i=0;i<br;i++){
+    //     printf("%d ",nizxy[i]);
+    // }
     
     
-    return 0;
+    // return 0;
 
-    //10.16
-    int nizx[100],nizy[100],n,nizxy[100];
+    // //10.16
+    // int nizx[100],nizy[100],n,nizxy[100];
     
-    printf("unesi n:");
-    scanf("%d",&n);
-    for(int i=0;i<n;i++)
-    {
-        scanf("%d",&nizx[i]);
+    // printf("unesi n:");
+    // scanf("%d",&n);
+    // for(int i=0;i<n;i++)
+    // {
+    //     scanf("%d",&nizx[i]);
         
-    }
-    for(int i=0;i<n;i++)
-    {
-        scanf("%d",&nizy[i]);
+    // }
+    // for(int i=0;i<n;i++)
+    // {
+    //     scanf("%d",&nizy[i]);
         
-    }
-    for(int i=0;i<n;i++)
-    {
-        if(nizx[i]<nizy[i]) nizxy[i]=nizx[i];
-        else if(nizx[i]>nizy[i]) nizxy[i]=nizy[i];
-        else nizxy[i]=0;
-    }
+    // }
+    // for(int i=0;i<n;i++)
+    // {
+    //     if(nizx[i]<nizy[i]) nizxy[i]=nizx[i];
+    //     else if(nizx[i]>nizy[i]) nizxy[i]=nizy[i];
+    //     else nizxy[i]=0;
+    // }
     
-    for(int i=0;i<n;i++){
-        printf("%d ",nizxy[i]);
-    }
+    // for(int i=0;i<n;i++){
+    //     printf("%d ",nizxy[i]);
+    // }
     
     
-    return 0;
+    // return 0;
 
-    //10.17
-    int nizx[100],nizy[100],n,nizz[100],j=0,k=0;
+    // //10.17
+    // int nizx[100],nizy[100],n,nizz[100],j=0,k=0;
     
-    printf("unesi n:");
-    scanf("%d",&n);
-    for(int i=0;i<n;i++)
-    {
-        scanf("%d",&nizx[i]);
+    // printf("unesi n:");
+    // scanf("%d",&n);
+    // for(int i=0;i<n;i++)
+    // {
+    //     scanf("%d",&nizx[i]);
         
-    }
-    for(int i=0;i<n;i++)
-    {
-        if(nizx[i]<0) {
-            nizy[j]=nizx[i];
-            j++;
-        }
-        else {
-            nizz[k]=nizx[i];
-            k++;
-        }
-    }
-    printf("\nel niza y su\n");
-    for(int i=0;i<j;i++){
-        printf("%d ",nizy[i]);
-    }
-    printf("\nel niza z su\n");
-    for(int i=0;i<k;i++){
-        printf("%d ",nizz[i]);
-    }
+    // }
+    // for(int i=0;i<n;i++)
+    // {
+    //     if(nizx[i]<0) {
+    //         nizy[j]=nizx[i];
+    //         j++;
+    //     }
+    //     else {
+    //         nizz[k]=nizx[i];
+    //         k++;
+    //     }
+    // }
+    // printf("\nel niza y su\n");
+    // for(int i=0;i<j;i++){
+    //     printf("%d ",nizy[i]);
+    // }
+    // printf("\nel niza z su\n");
+    // for(int i=0;i<k;i++){
+    //     printf("%d ",nizz[i]);
+    // }
     
     
-    return 0;
+    // return 0;
 
-    //10.18
-    int nizx[100],nizy[100],n,nizz[100],j=0,suma=0;
-    float as;
-    printf("unesi n:");
-    scanf("%d",&n);
-    for(int i=0;i<n;i++)
-    {
-        scanf("%d",&nizx[i]);
-        suma+=nizx[i];
-    }
-    as=suma*1.0/n;
-    for(int i=0;i<n;i++)
-    {
-        if(nizx[i]>as){
-            nizy[j]=nizx[i];
-            j++;
-        }
-    }
-    printf("\nel niza y su\n");
-    for(int i=0;i<j;i++){
-        printf("%d ",nizy[i]);
-    }
+    // //10.18
+    // int nizx[100],nizy[100],n,nizz[100],j=0,suma=0;
+    // float as;
+    // printf("unesi n:");
+    // scanf("%d",&n);
+    // for(int i=0;i<n;i++)
+    // {
+    //     scanf("%d",&nizx[i]);
+    //     suma+=nizx[i];
+    // }
+    // as=suma*1.0/n;
+    // for(int i=0;i<n;i++)
+    // {
+    //     if(nizx[i]>as){
+    //         nizy[j]=nizx[i];
+    //         j++;
+    //     }
+    // }
+    // printf("\nel niza y su\n");
+    // for(int i=0;i<j;i++){
+    //     printf("%d ",nizy[i]);
+    // }
     
     
     
-    return 0;
+    // return 0;
 
 
-    //10.19
-    int nizx[100],nizy[100],n,nizz[100],j=0,suma=0;
-    float as;
-    printf("unesi n:");
-    scanf("%d",&n);
-    for(int i=0;i<n;i++)
-    {
-        scanf("%d",&nizx[i]);
-        suma+=nizx[i];
-        nizy[i]=suma;
-    }
-    printf("\nel niza y su\n");
-    for(int i=0;i<n;i++){
-        printf("%d ",nizy[i]);
-    }
+    // //10.19
+    // int nizx[100],nizy[100],n,nizz[100],j=0,suma=0;
+    // float as;
+    // printf("unesi n:");
+    // scanf("%d",&n);
+    // for(int i=0;i<n;i++)
+    // {
+    //     scanf("%d",&nizx[i]);
+    //     suma+=nizx[i];
+    //     nizy[i]=suma;
+    // }
+    // printf("\nel niza y su\n");
+    // for(int i=0;i<n;i++){
+    //     printf("%d ",nizy[i]);
+    // }
     
     
     
-    return 0;
+    // return 0;
     
 
     //#include <stdio.h>
@@ -2532,7 +2532,7 @@ main(){
     
 
 //     return 0;
-}
+//}
 
 // int niz[100],n,i,max;
 //     printf("unesi n:");
@@ -2836,7 +2836,7 @@ main(){
 
 ///////////////////////////////43///////////////////////////////////////////////////////////////
 
-#include <stdio.h>
+//#include <stdio.h>
 // void printanje(int niz[],int n){
 //     int i;
 //     for(i=0;i<n;i++){
@@ -3339,534 +3339,582 @@ main(){
 //         if(suma>budzet)break;
 //     }
 //     printf("%d",i);
+/******************************************************************************
 
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
 
-// int i,niz[100],n,budzet,pom,j,suma=0,makica[100][100],x,br=0;
-// printf("unesi n");
-// scanf("%d",&n);
-// for(i=0;i<n;i++)
-//     scanf("%d",&niz[i]);
-    
-    
+*******************************************************************************/
 
-// for(i=0;i<n;i++){
-//  for(j=i+1;j<n;j++){
-//      if(niz[i]>niz[j]){
-//          pom=niz[i];
-//          niz[i]=niz[j];
-//          niz[j]=pom;
-//      }
-//  }
-// }
+//#include <stdio.h>
 
-// for(i=0;i<n;i++){
-//     printf("%d ",niz[i]);
-// }
-// x=niz[1]-niz[0];
-// for(i=0;i<n;i++){
-//     if(niz[i+1]-niz[i]==x)br++;
-// }
-// if(br+1==n)printf("jes");
-// else printf("nije");
-// return 0;
-
-
-//     int main()
-// { int i,mat[100][100],n,budzet,pom,j,suma=0,makica[100][100];
-// printf("unesi n");
-// scanf("%d",&n);
-// for(i=0;i<n;i++)
-// for(j=0;j<n;j++){
-//     scanf("%d",&mat[i][j]);
-// }
-// for(i=0;i<n;i++){
-//  for(j=0;j<n;j++){
-//    if(mat[i][j]%2==0&&i+j==3){
-//        makica[i][j]=mat[i][j];}
-//        else makica[i][j]=0;
-   
-//  }
-// }
-
-
-    // for(i=0;i<n;i++){
-    //     for(j=0;j<n;j++){
-    //         printf("%d ",makica[i][j]);
-    //     }
-    //     printf("\n");
-    // }
-    
-// return 0;
-
-
-
-
-//KUPUS URADJEN
-// int i,j,mat[100][100],m,kupus=0,br=0,a;
-
-
-// printf("unesi m");
-// scanf("%d",&m);
-
-// for(i=0;i<m;i++)
-// for(j=0;j<m;j++){
-//     scanf("%d",&mat[i][j]);
-// }
- 
-// for(i=0;i<m;i++){
-//         for(j=0;j<m;j++){
-//             printf("%d ",mat[i][j]);
-//         }
-//         printf("\n");
-//     }
-    
-// i=0;
-// j=0;
-// while(a!='k'){
-//     a=getchar();
-    
-//     if(a=='l'){
-//         j--;
-//         br++;
-//         if(mat[i][j]==1){
-//         kupus++;
-//     }
-//     }
-//     if(a=='d'){
-//         j++;
-//         br++;
-//         if(mat[i][j]==1){
-//         kupus++;
-//     }
-//     }
-//     if(a=='g'){
-//         i--;
-//         br++;
-//         if(mat[i][j]==1){
-//         kupus++;
-//     }
-//     }
-//     if(a=='n'){
-//         i++;
-//         br++;
-//         if(mat[i][j]==1){
-//         kupus++;
-//     }
-//     }
-    
-
-// }
-// printf("\n%d  %d",kupus,br);
-// return 0;
-
-
-
-// int i,j,br=0,n1,n2;
-// char a[100],b[100];
-// gets(a);
-// n1=strlen(a);
-// gets(b);
-// n2=strlen(b);
-// for(i=0;i<n1;i++){
-//     for(j=0;j<n2;j++){
-//         if(a[i]==b[j]){
-            
-//             br++;
-//             break;
-            
-//         }
+// #define MAX 100
+// void funkcija(int niz[],int n,int budzet){
+//         float suma=0;
+//         int i,j,k;
+//         int pom;
         
-//     }
-    
-    
-// }
-// if(n1==br)printf("jesu");
-// else printf("%d ",br);
-// return 0;
-
-
-// int i,j,niz[100],n,br1=0,br2=0;
-// printf("unesi n:");scanf("%d",&n);
-// for(i=0;i<n;i++)
-// scanf("%d",&niz[i]);
-// for(i=0;i<n;i++){
-//     for(j=i-1;j>=0;j--)br1+=niz[j];
-//     for(j=i+1;j<n;j++)br2+=niz[j];
-    
-
-//     if(br1==br2)printf("uravnotezen je za %d",i);
-//     br1=0;
-//     br2=0;
-// }
-// return 0;
-
-
-
-
-
-
-
-// int i,j,niz1[100],niz2[100],niz3[100],n,br=0;
-// printf("unesi n");
-// scanf("%d",&n);
-// for(i=0;i<n;i++){
-//         scanf("%d",&niz1[i]);
-//     }
-// for(i=0;i<n;i++){
-//         scanf("%d",&niz2[i]);
-//     }
-    
-//     for(i=0;i<n;i++){
-//         for(j=0;j<n;j++){
-//             if(niz1[i]==niz2[j]){
-//                 niz3[br]=niz1[i];
-//                 br++;
-//             }
-//         }
-//     }
-//     for(i=0;i<br;i++){
-//         printf("%d ",niz3[i]);
-//     }
-   
-// return 0;
-
-
-// void preslikavanje(int niz1[],int niz2[],int n){
-//     int i,j,niz3[100],br=0;
-//         for(i=0;i<n;i++){
-//         for(j=0;j<n;j++){
-//             if(niz1[i]==niz2[j]){
-//                 niz3[br]=niz1[i];
-//                 br++;
-//             }
-//         }
-//     }
-//     for(i=0;i<br;i++){
-//         printf("%d ",niz3[i]);
-//     }
-    
-// }
-
-
-
-
-
-// int main()
-// { int i,j,niz1[100],niz2[100],niz3[100],n,br=0;
-// printf("unesi n");
-// scanf("%d",&n);
-// for(i=0;i<n;i++){
-//         scanf("%d",&niz1[i]);
-//     }
-// for(i=0;i<n;i++){
-//         scanf("%d",&niz2[i]);
-//     }
-//     preslikavanje(niz1,niz2,n);
-   
-// return 0;
-// }
-
-
-
-
-// int **a,br=0,s=0,i,j,n,m,max=0,imax=0,smax=0;
-//     printf ("bez zajebancije n : "); scanf ("%d" , &n);
-//     printf ("bez zajebancije m : "); scanf ("%d" , &m);
-//     a=(int **)malloc(m*sizeof(int*));
-//     if (a==NULL) {
-//         printf ("nema se");
-//         exit(1);
-//     }
-//     for (i=0;i<m;i++) {
-//         a[i]=(int *)malloc(n*sizeof(int*));
         
-//         if (a==NULL) {
-//            for (j=0;j<i;i++) {
-//                free(a[j]);
-//                free(a);
-//                exit(1);
-//            }
-        
-            
-//         }
-        
-//     }
-    
-//     printf ("unesi matricu : ");
-//     for (i=0;i<m;i++){
-//     for(j=0;j<n;j++) {
-//      scanf ("%d" ,&a[i][j] );  
-//     }
-//     }
-    
-//     for (i=0;i<m;i++){
-//     for (j=0;j<n;j++) {
-        
-//         if (a[i][j]>0) br++;
-//         s+=a[i][j];
-//         if(br>max){
-//             max=br;
-//             imax=i;
-            
-//             smax=s;
-            
-//         }
-//         if(max==br){
-//             if(s>smax){
-//                 smax=s;
-//                 imax=i;
-//             }
-//         }
-        
-//     }    
-//     s=0;
-//     br=0;
-    
-//     }
-// printf("%d",imax+1);
-    
-//     return 0;
-
-
-// int *a=NULL , duzina=0, alocirano=0, n, i;
-//  printf("\n Unosite brojeve. Za kraj unosa unesite 0:\n");
-//  do
+//         for(i=0; i<n-1; i++)
+//  for(j=i+1; j<n; j++)
+//  if(niz[i] > niz[j])
 //  {
-//  scanf("%d", &n);
-//  /*Ukoliko nema vise slobodnih mesta, vrsi se prosirivanje.*/
-//  if(duzina==alocirano)
-//  {
-//  /*Niz se prosiruje na 10 elemenata vise.*/
-//  alocirano+=KORAK;
-//  a=realloc(a, alocirano*sizeof(int));
-//  }
-//  a[duzina]=n;
-//  duzina++;
-//  } while(n!=0);
-//  printf("\n Obrnuti niz: ");
-//  for(i=duzina-2; i>=0; i--)
-//  printf(" %d",a[i]);
-//  free(a);
-//  getche();
-//  return 0; 
+//  pom=niz[i];
+//  niz[i]=niz[j];
+//  niz[j]=pom;
+//  } 
 
-
-
-
-
-// int n, i,j=0,k=0;
-//  char s[100+1];
-//  printf("\n Unesite string: ");
-//  gets(s);
-//  n=strlen(s);
-//  printf("\n Novi string: ");
-//  for(i=0; i<n; i++){
-//      if(s[i]=='/'&&s[i+1]=='*'){
-//          j=i;
-//      }
-//  }
-//  for(i=0; i<n; i++){
-//      if(s[i]=='/'&&s[i-1]=='*'){
-//          k=i;
-//      }
-//  }
- 
 //  for(i=0;i<n;i++){
-//      if(i<j||i>k)printf("%c", s[i]);
-//  }
- 
- 
-//  return 0;
+//      if(suma>budzet)break;
+//      suma+=niz[i];
 
+     
+//  }
+        
+//         printf("%d",i-1);
+//     }
+//     int main(){
+//         int n,i,niz[MAX],budzet;
+//         printf("unesi broj cena:");
+//         scanf("%d",&n);
+//        printf("Unesi niz");
+//        for(i=0;i<n;i++){
+//            scanf("%d",&niz[i]);
+//        }
+//        printf("unesi budzet");
+//        scanf("%d",&budzet);
+//        funkcija(niz,n,budzet);
+//        return 0;
+//     }
+
+
+// // int i,niz[100],n,budzet,pom,j,suma=0,makica[100][100],x,br=0;
+// // printf("unesi n");
+// // scanf("%d",&n);
+// // for(i=0;i<n;i++)
+// //     scanf("%d",&niz[i]);
+    
+    
+
+// // for(i=0;i<n;i++){
+// //  for(j=i+1;j<n;j++){
+// //      if(niz[i]>niz[j]){
+// //          pom=niz[i];
+// //          niz[i]=niz[j];
+// //          niz[j]=pom;
+// //      }
+// //  }
+// // }
+
+// // for(i=0;i<n;i++){
+// //     printf("%d ",niz[i]);
+// // }
+// // x=niz[1]-niz[0];
+// // for(i=0;i<n;i++){
+// //     if(niz[i+1]-niz[i]==x)br++;
+// // }
+// // if(br+1==n)printf("jes");
+// // else printf("nije");
+// // return 0;
+
+
+// //     int main()
+// // { int i,mat[100][100],n,budzet,pom,j,suma=0,makica[100][100];
+// // printf("unesi n");
+// // scanf("%d",&n);
+// // for(i=0;i<n;i++)
+// // for(j=0;j<n;j++){
+// //     scanf("%d",&mat[i][j]);
+// // }
+// // for(i=0;i<n;i++){
+// //  for(j=0;j<n;j++){
+// //    if(mat[i][j]%2==0&&i+j==3){
+// //        makica[i][j]=mat[i][j];}
+// //        else makica[i][j]=0;
+   
+// //  }
+// // }
+
+
+//     // for(i=0;i<n;i++){
+//     //     for(j=0;j<n;j++){
+//     //         printf("%d ",makica[i][j]);
+//     //     }
+//     //     printf("\n");
+//     // }
+    
+// // return 0;
+
+
+
+
+// //KUPUS URADJEN
+// // int i,j,mat[100][100],m,kupus=0,br=0,a;
+
+
+// // printf("unesi m");
+// // scanf("%d",&m);
+
+// // for(i=0;i<m;i++)
+// // for(j=0;j<m;j++){
+// //     scanf("%d",&mat[i][j]);
+// // }
+ 
+// // for(i=0;i<m;i++){
+// //         for(j=0;j<m;j++){
+// //             printf("%d ",mat[i][j]);
+// //         }
+// //         printf("\n");
+// //     }
+    
+// // i=0;
+// // j=0;
+// // while(a!='k'){
+// //     a=getchar();
+    
+// //     if(a=='l'){
+// //         j--;
+// //         br++;
+// //         if(mat[i][j]==1){
+// //         kupus++;
+// //     }
+// //     }
+// //     if(a=='d'){
+// //         j++;
+// //         br++;
+// //         if(mat[i][j]==1){
+// //         kupus++;
+// //     }
+// //     }
+// //     if(a=='g'){
+// //         i--;
+// //         br++;
+// //         if(mat[i][j]==1){
+// //         kupus++;
+// //     }
+// //     }
+// //     if(a=='n'){
+// //         i++;
+// //         br++;
+// //         if(mat[i][j]==1){
+// //         kupus++;
+// //     }
+// //     }
+    
+
+// // }
+// // printf("\n%d  %d",kupus,br);
+// // return 0;
+
+
+
+// // int i,j,br=0,n1,n2;
+// // char a[100],b[100];
+// // gets(a);
+// // n1=strlen(a);
+// // gets(b);
+// // n2=strlen(b);
+// // for(i=0;i<n1;i++){
+// //     for(j=0;j<n2;j++){
+// //         if(a[i]==b[j]){
+            
+// //             br++;
+// //             break;
+            
+// //         }
+        
+// //     }
+    
+    
+// // }
+// // if(n1==br)printf("jesu");
+// // else printf("%d ",br);
+// // return 0;
+
+
+// // int i,j,niz[100],n,br1=0,br2=0;
+// // printf("unesi n:");scanf("%d",&n);
+// // for(i=0;i<n;i++)
+// // scanf("%d",&niz[i]);
+// // for(i=0;i<n;i++){
+// //     for(j=i-1;j>=0;j--)br1+=niz[j];
+// //     for(j=i+1;j<n;j++)br2+=niz[j];
+    
+
+// //     if(br1==br2)printf("uravnotezen je za %d",i);
+// //     br1=0;
+// //     br2=0;
+// // }
+// // return 0;
+
+
+
+
+
+
+
+// // int i,j,niz1[100],niz2[100],niz3[100],n,br=0;
+// // printf("unesi n");
+// // scanf("%d",&n);
+// // for(i=0;i<n;i++){
+// //         scanf("%d",&niz1[i]);
+// //     }
+// // for(i=0;i<n;i++){
+// //         scanf("%d",&niz2[i]);
+// //     }
+    
+// //     for(i=0;i<n;i++){
+// //         for(j=0;j<n;j++){
+// //             if(niz1[i]==niz2[j]){
+// //                 niz3[br]=niz1[i];
+// //                 br++;
+// //             }
+// //         }
+// //     }
+// //     for(i=0;i<br;i++){
+// //         printf("%d ",niz3[i]);
+// //     }
+   
+// // return 0;
+
+
+// // void preslikavanje(int niz1[],int niz2[],int n){
+// //     int i,j,niz3[100],br=0;
+// //         for(i=0;i<n;i++){
+// //         for(j=0;j<n;j++){
+// //             if(niz1[i]==niz2[j]){
+// //                 niz3[br]=niz1[i];
+// //                 br++;
+// //             }
+// //         }
+// //     }
+// //     for(i=0;i<br;i++){
+// //         printf("%d ",niz3[i]);
+// //     }
+    
+// // }
+
+
+
+
+
+// // int main()
+// // { int i,j,niz1[100],niz2[100],niz3[100],n,br=0;
+// // printf("unesi n");
+// // scanf("%d",&n);
+// // for(i=0;i<n;i++){
+// //         scanf("%d",&niz1[i]);
+// //     }
+// // for(i=0;i<n;i++){
+// //         scanf("%d",&niz2[i]);
+// //     }
+// //     preslikavanje(niz1,niz2,n);
+   
+// // return 0;
+// // }
+
+
+
+
+// // int **a,br=0,s=0,i,j,n,m,max=0,imax=0,smax=0;
+// //     printf ("bez zajebancije n : "); scanf ("%d" , &n);
+// //     printf ("bez zajebancije m : "); scanf ("%d" , &m);
+// //     a=(int **)malloc(m*sizeof(int*));
+// //     if (a==NULL) {
+// //         printf ("nema se");
+// //         exit(1);
+// //     }
+// //     for (i=0;i<m;i++) {
+// //         a[i]=(int *)malloc(n*sizeof(int*));
+        
+// //         if (a==NULL) {
+// //            for (j=0;j<i;i++) {
+// //                free(a[j]);
+// //                free(a);
+// //                exit(1);
+// //            }
+        
+            
+// //         }
+        
+// //     }
+    
+// //     printf ("unesi matricu : ");
+// //     for (i=0;i<m;i++){
+// //     for(j=0;j<n;j++) {
+// //      scanf ("%d" ,&a[i][j] );  
+// //     }
+// //     }
+    
+// //     for (i=0;i<m;i++){
+// //     for (j=0;j<n;j++) {
+        
+// //         if (a[i][j]>0) br++;
+// //         s+=a[i][j];
+// //         if(br>max){
+// //             max=br;
+// //             imax=i;
+            
+// //             smax=s;
+            
+// //         }
+// //         if(max==br){
+// //             if(s>smax){
+// //                 smax=s;
+// //                 imax=i;
+// //             }
+// //         }
+        
+// //     }    
+// //     s=0;
+// //     br=0;
+    
+// //     }
+// // printf("%d",imax+1);
+    
+// //     return 0;
+
+
+// // int *a=NULL , duzina=0, alocirano=0, n, i;
+// //  printf("\n Unosite brojeve. Za kraj unosa unesite 0:\n");
+// //  do
+// //  {
+// //  scanf("%d", &n);
+// //  /*Ukoliko nema vise slobodnih mesta, vrsi se prosirivanje.*/
+// //  if(duzina==alocirano)
+// //  {
+// //  /*Niz se prosiruje na 10 elemenata vise.*/
+// //  alocirano+=KORAK;
+// //  a=realloc(a, alocirano*sizeof(int));
+// //  }
+// //  a[duzina]=n;
+// //  duzina++;
+// //  } while(n!=0);
+// //  printf("\n Obrnuti niz: ");
+// //  for(i=duzina-2; i>=0; i--)
+// //  printf(" %d",a[i]);
+// //  free(a);
+// //  getche();
+// //  return 0; 
+
+
+
+
+
+// // int n, i,j=0,k=0;
+// //  char s[100+1];
+// //  printf("\n Unesite string: ");
+// //  gets(s);
+// //  n=strlen(s);
+// //  printf("\n Novi string: ");
+// //  for(i=0; i<n; i++){
+// //      if(s[i]=='/'&&s[i+1]=='*'){
+// //          j=i;
+// //      }
+// //  }
+// //  for(i=0; i<n; i++){
+// //      if(s[i]=='/'&&s[i-1]=='*'){
+// //          k=i;
+// //      }
+// //  }
+ 
+// //  for(i=0;i<n;i++){
+// //      if(i<j||i>k)printf("%c", s[i]);
+// //  }
+ 
+ 
+// //  return 0;
+
+
+
+
+// // // #include <stdio.h>
+
+// // // struct zaposleni{
+// //     char ime[100];
+// //     char prezime[100];
+// //     char radno[100];
+// //     float plata;
+// // };
+
+
+
+// // int main()
+// // {int n,i;
+// //     struct zaposleni radnik[100];
+    
+// // printf("unesi n:");
+// // scanf("%d",&n);
+// // for(i=0;i<n;i++){
+// //  printf("\n Unesite podatke o zaposlenom %d\n",i+1);
+// //  printf(" Unesite ime: ");
+// // scanf("%s",&radnik[i].ime);
+// //  printf(" Unesite prezime: ");
+// //  scanf("%s",&radnik[i].prezime);
+// //  printf(" Unesite radno mesto: ");
+// //  scanf("%s",&radnik[i].radno);
+// //  printf(" Unesite platu: ");
+// //  scanf("%f",&radnik[i].plata);
+// // }
+// // for(i=0;i<n;i++){
+// //     printf("\npodaci o zaposlenom %d",i+1);
+// //     printf("\nime:%s",radnik[i].ime);
+// //     printf("\nprezime:%s",radnik[i].prezime);
+// //     printf("\nradno:%s",radnik[i].radno);
+// //     printf("\nplata:%f",radnik[i].plata);
+// // }
+// // return 0;
+// // }
 
 
 
 // // #include <stdio.h>
 
-// // struct zaposleni{
-//     char ime[100];
-//     char prezime[100];
-//     char radno[100];
-//     float plata;
-// };
+// // struct fakultet{
+// //     char ime[100];
+// //     char prezime[100];
+// //     int indeks;
+// //     int brpr;
+// //     float prosek;
+// // };
 
 
+// // #include <stdio.h>
+// // typedef struct ucenici{
+// //     char ime[30];
+// //     char prezime[30];
+// //     char adresa[30];
+// //     int razred;
+// //     int odeljenje;
+// // }UCENICI;
 
-// int main()
-// {int n,i;
-//     struct zaposleni radnik[100];
+// // int main()
+// // {   UCENICI ucenik[100];
     
-// printf("unesi n:");
-// scanf("%d",&n);
-// for(i=0;i<n;i++){
-//  printf("\n Unesite podatke o zaposlenom %d\n",i+1);
-//  printf(" Unesite ime: ");
-// scanf("%s",&radnik[i].ime);
-//  printf(" Unesite prezime: ");
-//  scanf("%s",&radnik[i].prezime);
-//  printf(" Unesite radno mesto: ");
-//  scanf("%s",&radnik[i].radno);
-//  printf(" Unesite platu: ");
-//  scanf("%f",&radnik[i].plata);
-// }
-// for(i=0;i<n;i++){
-//     printf("\npodaci o zaposlenom %d",i+1);
-//     printf("\nime:%s",radnik[i].ime);
-//     printf("\nprezime:%s",radnik[i].prezime);
-//     printf("\nradno:%s",radnik[i].radno);
-//     printf("\nplata:%f",radnik[i].plata);
-// }
-// return 0;
-// }
-
-
-
-// #include <stdio.h>
-
-// struct fakultet{
-//     char ime[100];
-//     char prezime[100];
-//     int indeks;
-//     int brpr;
-//     float prosek;
-// };
-
-
-// #include <stdio.h>
-// typedef struct ucenici{
-//     char ime[30];
-//     char prezime[30];
-//     char adresa[30];
-//     int razred;
-//     int odeljenje;
-// }UCENICI;
-
-// int main()
-// {   UCENICI ucenik[100];
-    
-//     FILE *dato;
-//     if((dato=fopen("ucenici.txt","w"))==NULL){
-//         printf("greska");
-//         return 1;
-//     }
-//     printf("unesi n");
-//     scanf("%d",&n);
-//     for(i=0;i<n;i++){
-//         printf("unesi ime:")
-//         scanf("%s",ucenik[i].ime);
-//         printf("unesi prezime:")
-//         scanf("%s",ucenik[i].prezime);
-//         printf("unesi adresa:")
-//         scanf("%s",ucenik[i].adresa);
-//         printf("unesi razred:")
-//         scanf("%d",ucenik[i].razred);
-//         printf("unesi odeljenje:")
-//         scanf("%d",ucenik[i].odeljenje);
-//         fprintf(dato,"%s %s %s %d %d",ucenik[i].ime,ucenik[i].prezime,ucenik[i].adresa,ucenik[i].razred,ucenik[i].odeljenje)
-//     }
-//     fclose(dato);
-//         printf("unesi x");
-//     scanf("%d",&x);
-//     if((dato=fopen("ucenici.txt","r"))==NULL){
-//         printf("greska");
-//         return 1;
-//     }
-//     for(i=0;i<n;i++){
-//         fscanf(dato,"%s%s%s%d%d",&ucenik[i].ime,&ucenik[i].prezime,&ucenik[i].adresa,&ucenik[i].razred,&ucenik[i].odeljenje)
-//         if(ucenik[i].razred==x){
-//             printf("%s%s%s%d%d",ucenik[i].ime,ucenik[i].prezime,ucenik[i].adresa,ucenik[i].razred,ucenik[i].odeljenje)
-//         }
-//     }
-//     fclose(dato);
-//     return 0;
-    //dal se pada
+// //     FILE *dato;
+// //     if((dato=fopen("ucenici.txt","w"))==NULL){
+// //         printf("greska");
+// //         return 1;
+// //     }
+// //     printf("unesi n");
+// //     scanf("%d",&n);
+// //     for(i=0;i<n;i++){
+// //         printf("unesi ime:")
+// //         scanf("%s",ucenik[i].ime);
+// //         printf("unesi prezime:")
+// //         scanf("%s",ucenik[i].prezime);
+// //         printf("unesi adresa:")
+// //         scanf("%s",ucenik[i].adresa);
+// //         printf("unesi razred:")
+// //         scanf("%d",ucenik[i].razred);
+// //         printf("unesi odeljenje:")
+// //         scanf("%d",ucenik[i].odeljenje);
+// //         fprintf(dato,"%s %s %s %d %d",ucenik[i].ime,ucenik[i].prezime,ucenik[i].adresa,ucenik[i].razred,ucenik[i].odeljenje)
+// //     }
+// //     fclose(dato);
+// //         printf("unesi x");
+// //     scanf("%d",&x);
+// //     if((dato=fopen("ucenici.txt","r"))==NULL){
+// //         printf("greska");
+// //         return 1;
+// //     }
+// //     for(i=0;i<n;i++){
+// //         fscanf(dato,"%s%s%s%d%d",&ucenik[i].ime,&ucenik[i].prezime,&ucenik[i].adresa,&ucenik[i].razred,&ucenik[i].odeljenje)
+// //         if(ucenik[i].razred==x){
+// //             printf("%s%s%s%d%d",ucenik[i].ime,ucenik[i].prezime,ucenik[i].adresa,ucenik[i].razred,ucenik[i].odeljenje)
+// //         }
+// //     }
+// //     fclose(dato);
+// //     return 0;
+//     //dal se pada
 
 
 
 
 
-// int main()
-// {int n,i;
-// float prosekoc=0;
-// struct fakultet student[n];
-// printf("unesi br studenata:\n");
-// scanf("%d",&n);
-// for(i=0;i<n;i++){
-// printf("unesi podatke o %d studentu :\n",i+1);
-// printf("ime:\n");
-// scanf("%s",&student[i].ime);
-// printf("prezime:\n");
-// scanf("%s",&student[i].prezime);
-// printf("indeks:\n");
-// scanf("%d",&student[i].indeks);
-// printf("broj prenetih:\n");
-// scanf("%d",&student[i].brpr);
-// printf("broj prosek:\n");
-// scanf("%f",&student[i].prosek);
-// prosekoc+=student[i].prosek;
-// }
-// prosekoc=prosekoc*1.0/n;
-// printf("student koji su primljeni :\n");
-// for(i=0;i<n;i++){
-//     if(student[i].prosek>prosekoc&&student[i].brpr<5){
+// // int main()
+// // {int n,i;
+// // float prosekoc=0;
+// // struct fakultet student[n];
+// // printf("unesi br studenata:\n");
+// // scanf("%d",&n);
+// // for(i=0;i<n;i++){
+// // printf("unesi podatke o %d studentu :\n",i+1);
+// // printf("ime:\n");
+// // scanf("%s",&student[i].ime);
+// // printf("prezime:\n");
+// // scanf("%s",&student[i].prezime);
+// // printf("indeks:\n");
+// // scanf("%d",&student[i].indeks);
+// // printf("broj prenetih:\n");
+// // scanf("%d",&student[i].brpr);
+// // printf("broj prosek:\n");
+// // scanf("%f",&student[i].prosek);
+// // prosekoc+=student[i].prosek;
+// // }
+// // prosekoc=prosekoc*1.0/n;
+// // printf("student koji su primljeni :\n");
+// // for(i=0;i<n;i++){
+// //     if(student[i].prosek>prosekoc&&student[i].brpr<5){
         
-//         printf("ime: %s %s %d\n",student[i].ime,student[i].prezime,student[i].indeks);
+// //         printf("ime: %s %s %d\n",student[i].ime,student[i].prezime,student[i].indeks);
         
-//     }
+// //     }
 
 
-// int i, j, m, n;
-//  double **a;
-//  double trag, norma, vdnorma;
-//  printf("\n Broj vrsta: ");
-//  scanf("%d", &m);
-//  printf(" Broj kolona: ");
-//  scanf("%d", &n);
-//  /*dinamicki alociramo prostor za n pokazivaca na double-ove*/
-// a=(int**)malloc(m*int*);
-// if(a==NULL){
-//     exit(1);
-// }
-// for(i=0;i<m;i++){
-//     a[i]=(int*)malloc(n*int);
-//     if(a[i]==NULL){
-//         for(j=0;j<i;j++)
-//         free(a[j]);
-//         free(a);
-//         exit(1);
-//     }
-// }
-//  printf("\n Unesite elemente matrice:\n");
-//  for(i=0; i<m; i++)
-//  for(j=0; j<n; j++)
-//  {
-//  printf(" a[%d][%d] = ", i, j);
-//  scanf("%lf", &a[i][j]);
-//  }
-//  printf("\n Uneli ste matricu:\n");
-//  for(i=0; i<m; i++)
-//  {
-//  for(j=0; j<n; j++)
-//  printf(" %.2f", a[i][j]);
-//  printf("\n");
-//  }
-//  trag=0.0;
-//  for(i=0; i<n; i++)
-//  trag += a[i][i];
-//  printf(" Trag matrice: %.2f\n",trag);
-//  norma=0.0;
-//  for(i=0; i<m; i++)
-//  for(j=0; j<n; j++)
-//  norma += a[i][j]*a[i][j];
-//  norma=sqrt(norma);
-//  printf(" Euklidska norma matrice: %.2f\n", norma);
-//  vdnorma = 0.0;
-//  for(i=0; i<m; i++)
-//  for(j=i+1; j<n; j++)
-//  vdnorma+=fabs(a[i][j]);
-//  printf(" Gornja vandijagonalna norma matrice: %.2f\n", vdnorma);
-//  for(j=0;j<m;j++){
-//     free(a[j]);
-//     free(a);
-//  }
-//  return 0;
+// // int i, j, m, n;
+// //  double **a;
+// //  double trag, norma, vdnorma;
+// //  printf("\n Broj vrsta: ");
+// //  scanf("%d", &m);
+// //  printf(" Broj kolona: ");
+// //  scanf("%d", &n);
+// //  /*dinamicki alociramo prostor za n pokazivaca na double-ove*/
+// // a=(int**)malloc(m*int*);
+// // if(a==NULL){
+// //     exit(1);
+// // }
+// // for(i=0;i<m;i++){
+// //     a[i]=(int*)malloc(n*int);
+// //     if(a[i]==NULL){
+// //         for(j=0;j<i;j++)
+// //         free(a[j]);
+// //         free(a);
+// //         exit(1);
+// //     }
+// // }
+// //  printf("\n Unesite elemente matrice:\n");
+// //  for(i=0; i<m; i++)
+// //  for(j=0; j<n; j++)
+// //  {
+// //  printf(" a[%d][%d] = ", i, j);
+// //  scanf("%lf", &a[i][j]);
+// //  }
+// //  printf("\n Uneli ste matricu:\n");
+// //  for(i=0; i<m; i++)
+// //  {
+// //  for(j=0; j<n; j++)
+// //  printf(" %.2f", a[i][j]);
+// //  printf("\n");
+// //  }
+// //  trag=0.0;
+// //  for(i=0; i<n; i++)
+// //  trag += a[i][i];
+// //  printf(" Trag matrice: %.2f\n",trag);
+// //  norma=0.0;
+// //  for(i=0; i<m; i++)
+// //  for(j=0; j<n; j++)
+// //  norma += a[i][j]*a[i][j];
+// //  norma=sqrt(norma);
+// //  printf(" Euklidska norma matrice: %.2f\n", norma);
+// //  vdnorma = 0.0;
+// //  for(i=0; i<m; i++)
+// //  for(j=i+1; j<n; j++)
+// //  vdnorma+=fabs(a[i][j]);
+// //  printf(" Gornja vandijagonalna norma matrice: %.2f\n", vdnorma);
+// //  for(j=0;j<m;j++){
+// //     free(a[j]);
+// //     free(a);
+// //  }
+// //  return 0;
