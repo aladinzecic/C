@@ -3533,20 +3533,20 @@ Write your code in this editor and press "Run" button to compile and execute it.
 // // return 0;
 
 
-// // int i,j,niz[100],n,br1=0,br2=0;
-// // printf("unesi n:");scanf("%d",&n);
-// // for(i=0;i<n;i++)
-// // scanf("%d",&niz[i]);
-// // for(i=0;i<n;i++){
-// //     for(j=i-1;j>=0;j--)br1+=niz[j];
-// //     for(j=i+1;j<n;j++)br2+=niz[j];
+// int i,j,niz[100],n,br1=0,br2=0;
+// printf("unesi n:");scanf("%d",&n);
+// for(i=0;i<n;i++)
+// scanf("%d",&niz[i]);
+// for(i=0;i<n;i++){
+//     for(j=i-1;j>=0;j--)br1+=niz[j];
+//     for(j=i+1;j<n;j++)br2+=niz[j];
     
 
-// //     if(br1==br2)printf("uravnotezen je za %d",i);
-// //     br1=0;
-// //     br2=0;
-// // }
-// // return 0;
+//     if(br1==br2)printf("uravnotezen je za %d",i);
+//     br1=0;
+//     br2=0;
+// }
+// return 0;
 
 
 
@@ -3932,6 +3932,73 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+//Write a program in C++ to find the is of a number.
+    // int number,ldigit,i,fdigit;
+    // cout<<"unesi broj";
+    // cin >>number;
+    // ldigit=number%10;
+    // while(number>=1){
+    //     fdigit=number%10;
+    //     number/=10;
+    // }
+    // cout<<"sum of first and last digit is "<<ldigit+fdigit;
+    // return 0;
+
+
+
+
+ //Write a program in C++ to display the number in reverse order.
+//    int number,digit,new1;
+//    cout<<"unesi broj";
+//    cin>>number;
+//    while(number>=1){
+//        new1=new1*10+number%10;
+//        number/=10;
+//    }
+//    cout<<"broj je "<<new1;
+
+//Write a C++ program to compute the sum of three given integers. 
+    //If the two values are same return the third value
+    
+//     int sum(int x1,int x2,int x3){
+//     if(x1==x2)return x3;
+//     else if(x1==x3)return x2;
+//     else if(x3==x2)return x1;
+//     else return (x1+x2+x3);
+
+    
+// }
+//     int x1,x2,x3;
+//     cout<<"unesi 3 broja";
+//     cin>>x1>>x2>>x3;
+//     cout<<sum(x1,x2,x3);
+//     return 0;
 
 
 
