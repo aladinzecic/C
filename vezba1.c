@@ -4002,20 +4002,17 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 
 
+//// triple sum
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+// function triplesum(arr, num) {
+//   for (i = 0; i < arr.length; i++)
+//     for (j = 1; j < arr.length; j++)
+//       for (k = 2; k < arr.length; k++) {
+//         if ((i != j) != k && arr[i] + arr[j] + arr[k] == num)
+//           return `elementi su ${arr[i]} ${arr[j]} ${arr[k]} `;
+//       }
+// }
+// console.log(triplesum([1, 1, 2, 3], 4));
 
 
 
